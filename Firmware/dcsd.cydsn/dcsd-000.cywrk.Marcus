@@ -1,0 +1,504 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CyXmlSerializer>
+<!--This file is machine generated and read. It is not intended to be edited by hand.-->
+<!--Due to this, there is no schema for this file.-->
+<CyGuid_843a90a4-0c4b-4e44-991d-05e7fb117a21 type_name="CyDesigner.Common.ProjMgmt.Model.CyPrjMgmtWrkspcCustomData" version="4">
+<CyGuid_fdba8dfd-b15b-4469-9bbb-9e40c3e70997 type_name="CyDesigner.Common.Base.CyCustomData" version="2">
+<userData>
+<dataGuid v="5f2be1a5-0687-4501-bb8c-cf21cb8211bf">
+<CyGuid_5f2be1a5-0687-4501-bb8c-cf21cb8211bf type_name="CyDesigner.Common.ProjMgmt.GUI.CyBookmarkData" version="1">
+<indicators />
+</CyGuid_5f2be1a5-0687-4501-bb8c-cf21cb8211bf>
+</dataGuid>
+<dataGuid v="1b906a0f-a7b6-4e4d-a428-82f98b53cb35">
+<CyGuid_1b906a0f-a7b6-4e4d-a428-82f98b53cb35 type_name="CyDesigner.Common.ProjMgmt.GUI.CyExplorerWindow+CyExplorerWindowState" version="3" SelectedTab="Source">
+<TreeKeys>
+<v>Source</v>
+<v>Components</v>
+<v>Output</v>
+</TreeKeys>
+<TreeStates>
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="dcsd-000\dcsd\TopDesign">
+<ExpandedNodeIds>
+<v>dcsd-000</v>
+<v>dcsd-000\dcsd</v>
+<v>dcsd-000\dcsd\TopDesign</v>
+<v>dcsd-000\dcsd\dcsd.cydwr</v>
+<v>dcsd-000\dcsd\dcsd.cydwr\Pins</v>
+<v>dcsd-000\dcsd\dcsd.cydwr\Analog</v>
+<v>dcsd-000\dcsd\dcsd.cydwr\Clocks</v>
+<v>dcsd-000\dcsd\dcsd.cydwr\Interrupts</v>
+<v>dcsd-000\dcsd\dcsd.cydwr\System</v>
+<v>dcsd-000\dcsd\dcsd.cydwr\Directives</v>
+<v>dcsd-000\dcsd\dcsd.cydwr\Flash Security</v>
+<v>dcsd-000\dcsd\Header Files</v>
+<v>dcsd-000\dcsd\Header Files\cyapicallbacks.h</v>
+<v>dcsd-000\dcsd\Source Files</v>
+<v>dcsd-000\dcsd\Source Files\main.c</v>
+<v>dcsd-000\dcsd\Generated_Source</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\A\A.c</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\A\A.h</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\A\A_aliases.h</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\A\A_PM.c</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\ADC\ADC.c</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\ADC\ADC.h</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\ADC\ADC_INT.c</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\ADC\ADC_PM.c</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\ADC_intClock\ADC_intClock.c</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\ADC_intClock\ADC_intClock.h</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\ADC_IRQ</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\ADC_IRQ\ADC_IRQ.c</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\ADC_IRQ\ADC_IRQ.h</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\B</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\B\B.c</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\B\B.h</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\B\B_aliases.h</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\B\B_PM.c</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\Bootloadable_1</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\Bootloadable_1\Bootloadable_1.c</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\Bootloadable_1\Bootloadable_1.h</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\cy_boot</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\cy_boot\cm0gcc.ld</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\cy_boot\Cm0Iar.icf</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\cy_boot\Cm0RealView.scat</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\cy_boot\Cm0Start.c</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\cy_boot\cmsis_armcc.h</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\cy_boot\cmsis_gcc.h</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\cy_boot\core_cm0.h</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\cy_boot\core_cm0_psoc4.h</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\cy_boot\core_cmFunc.h</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\cy_boot\core_cmInstr.h</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\cy_boot\CyBootAsmGnu.s</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\cy_boot\CyBootAsmIar.s</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\cy_boot\CyBootAsmRv.s</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\cy_boot\CyFlash.c</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\cy_boot\CyFlash.h</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\cy_boot\CyLib.c</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\cy_boot\CyLib.h</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\cy_boot\cypins.h</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\cy_boot\cyPm.c</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\cy_boot\cyPm.h</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\cy_boot\cytypes.h</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\cy_boot\cyutils.c</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\cy_lfclk</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\cy_lfclk\CyLFClk.c</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\cy_lfclk\CyLFClk.h</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\Cyclk12</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\Cyclk12\Cyclk12.c</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\Cyclk12\Cyclk12.h</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\direction</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\direction\direction.c</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\direction\direction.h</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\direction\direction_aliases.h</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\direction\direction_PM.c</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\EEPROM</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\EEPROM\EEPROM.c</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\EEPROM\EEPROM.h</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\enable</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\enable\enable.c</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\enable\enable.h</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\enable\enable_aliases.h</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\enable\enable_PM.c</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\err</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\err\err.c</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\err\err.h</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\err\err_aliases.h</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\err\err_PM.c</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\error</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\error\error.c</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\error\error.h</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\error\error_aliases.h</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\error\error_PM.c</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\fault</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\fault\fault.c</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\fault\fault.h</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\fault\fault_aliases.h</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\fault\fault_PM.c</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\isense</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\isense\isense.c</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\isense\isense.h</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\isense\isense_aliases.h</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\isense\isense_PM.c</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\ovc</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\ovc\ovc.c</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\ovc\ovc.h</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\ovc\ovc_aliases.h</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\ovc\ovc_PM.c</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\phase</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\phase\phase.c</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\phase\phase.h</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\phase\phase_aliases.h</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\phase\phase_PM.c</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\PWM_MOT</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\PWM_MOT\PWM_MOT.c</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\PWM_MOT\PWM_MOT.h</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\PWM_MOT\PWM_MOT_PM.c</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\pwmClk</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\pwmClk\pwmClk.c</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\pwmClk\pwmClk.h</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\QDEC</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\QDEC\QDEC.c</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\QDEC\QDEC.h</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\QDEC\QDEC_INT.c</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\QDEC\QDEC_PM.c</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\QDEC\QDEC_PVT.h</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\QDEC_Cnt16</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\QDEC_Cnt16\QDEC_Cnt16.c</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\QDEC_Cnt16\QDEC_Cnt16.h</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\QDEC_Cnt16\QDEC_Cnt16_PM.c</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\QDEC_isr</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\QDEC_isr\QDEC_isr.c</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\QDEC_isr\QDEC_isr.h</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\reset</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\reset\reset.c</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\reset\reset.h</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\reset\reset_aliases.h</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\reset\reset_PM.c</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\rxISR</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\rxISR\rxISR.c</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\rxISR\rxISR.h</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\sleep</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\sleep\sleep.c</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\sleep\sleep.h</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\sleep\sleep_aliases.h</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\sleep\sleep_PM.c</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\step</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\step\step.c</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\step\step.h</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\step\step_aliases.h</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\step\step_PM.c</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\stepISR</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\stepISR\stepISR.c</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\stepISR\stepISR.h</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\TX_SEND</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\TX_SEND\TX_SEND.c</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\TX_SEND\TX_SEND.h</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\TX_SEND\TX_SEND_PM.c</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\txISR</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\txISR\txISR.c</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\txISR\txISR.h</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\UART</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\UART\UART.c</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\UART\UART.h</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\UART\UART_BOOT.c</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\UART\UART_BOOT.h</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\UART\UART_PINS.h</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\UART\UART_PM.c</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\UART\UART_PVT.h</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\UART\UART_SPI_UART.c</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\UART\UART_SPI_UART.h</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\UART\UART_SPI_UART_INT.c</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\UART\UART_SPI_UART_PVT.h</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\UART\UART_UART.c</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\UART\UART_UART_BOOT.c</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\UART_rx</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\UART_rx\UART_rx.c</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\UART_rx\UART_rx.h</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\UART_rx\UART_rx_aliases.h</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\UART_rx\UART_rx_PM.c</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\UART_SCBCLK</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\UART_SCBCLK\UART_SCBCLK.c</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\UART_SCBCLK\UART_SCBCLK.h</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\UART_tx</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\UART_tx\UART_tx.c</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\UART_tx\UART_tx.h</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\UART_tx\UART_tx_aliases.h</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\UART_tx\UART_tx_PM.c</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\vin</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\vin\vin.c</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\vin\vin.h</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\vin\vin_aliases.h</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\vin\vin_PM.c</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\cybootloader.c</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\cybootloader.icf</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\cycodeshareexport.ld</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\cycodeshareimport.ld</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\cycodeshareimport.scat</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\cydevice_trm.h</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\cydevicegnu_trm.inc</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\cydeviceiar_trm.inc</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\cydevicerv_trm.inc</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\cydisabledsheets.h</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\cyfitter.h</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\cyfitter_cfg.c</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\cyfitter_cfg.h</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\cyfittergnu.inc</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\cyfitteriar.inc</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\cyfitterrv.inc</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\cymetadata.c</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\project.h</v>
+</ExpandedNodeIds>
+<VisibleNodeIds>
+<v>dcsd-000</v>
+<v>dcsd-000\dcsd</v>
+<v>dcsd-000\dcsd\TopDesign</v>
+<v>dcsd-000\dcsd\dcsd.cydwr</v>
+<v>dcsd-000\dcsd\dcsd.cydwr\Pins</v>
+<v>dcsd-000\dcsd\dcsd.cydwr\Analog</v>
+<v>dcsd-000\dcsd\dcsd.cydwr\Clocks</v>
+<v>dcsd-000\dcsd\dcsd.cydwr\Interrupts</v>
+<v>dcsd-000\dcsd\dcsd.cydwr\System</v>
+<v>dcsd-000\dcsd\dcsd.cydwr\Directives</v>
+<v>dcsd-000\dcsd\dcsd.cydwr\Flash Security</v>
+<v>dcsd-000\dcsd\Header Files</v>
+<v>dcsd-000\dcsd\Header Files\cyapicallbacks.h</v>
+<v>dcsd-000\dcsd\Source Files</v>
+<v>dcsd-000\dcsd\Source Files\main.c</v>
+<v>dcsd-000\dcsd\Generated_Source</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\A</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\ADC</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\ADC_intClock</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\ADC_IRQ</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\ADC_IRQ\ADC_IRQ.c</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\ADC_IRQ\ADC_IRQ.h</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\B</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\B\B.c</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\B\B.h</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\B\B_aliases.h</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\B\B_PM.c</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\Bootloadable_1</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\Bootloadable_1\Bootloadable_1.c</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\Bootloadable_1\Bootloadable_1.h</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\cy_boot</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\cy_boot\cm0gcc.ld</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\cy_boot\Cm0Iar.icf</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\cy_boot\Cm0RealView.scat</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\cy_boot\Cm0Start.c</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\cy_boot\cmsis_armcc.h</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\cy_boot\cmsis_gcc.h</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\cy_boot\core_cm0.h</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\cy_boot\core_cm0_psoc4.h</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\cy_boot\core_cmFunc.h</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\cy_boot\core_cmInstr.h</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\cy_boot\CyBootAsmGnu.s</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\cy_boot\CyBootAsmIar.s</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\cy_boot\CyBootAsmRv.s</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\cy_boot\CyFlash.c</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\cy_boot\CyFlash.h</v>
+<v>dcsd-000\dcsd\Generated_Source\PSoC4\cy_boot\CyLib.c</v>
+</VisibleNodeIds>
+</CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
+<ExpandedNodeIds>
+<v>dcsd-000</v>
+<v>dcsd-000\dcsd</v>
+<v>dcsd-000\dcsd\TopDesign</v>
+<v>dcsd-000\dcsd\TopDesign\TopDesign.cysch</v>
+</ExpandedNodeIds>
+<VisibleNodeIds>
+<v>dcsd-000</v>
+<v>dcsd-000\dcsd</v>
+<v>dcsd-000\dcsd\TopDesign</v>
+<v>dcsd-000\dcsd\TopDesign\TopDesign.cysch</v>
+</VisibleNodeIds>
+</CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
+<ExpandedNodeIds>
+<v>dcsd-000</v>
+<v>dcsd-000\dcsd</v>
+<v>dcsd-000\dcsd\CortexM0</v>
+<v>dcsd-000\dcsd\CortexM0\ARM_GCC_493</v>
+<v>dcsd-000\dcsd\CortexM0\ARM_GCC_493\Debug</v>
+<v>dcsd-000\dcsd\CortexM0\ARM_GCC_493\Debug\Listing Files</v>
+<v>dcsd-000\dcsd\CortexM0\ARM_GCC_493\Debug\Listing Files\A.lst</v>
+<v>dcsd-000\dcsd\CortexM0\ARM_GCC_493\Debug\Listing Files\A_PM.lst</v>
+<v>dcsd-000\dcsd\CortexM0\ARM_GCC_493\Debug\Listing Files\ADC.lst</v>
+<v>dcsd-000\dcsd\CortexM0\ARM_GCC_493\Debug\Listing Files\ADC_INT.lst</v>
+<v>dcsd-000\dcsd\CortexM0\ARM_GCC_493\Debug\Listing Files\ADC_intClock.lst</v>
+<v>dcsd-000\dcsd\CortexM0\ARM_GCC_493\Debug\Listing Files\ADC_IRQ.lst</v>
+<v>dcsd-000\dcsd\CortexM0\ARM_GCC_493\Debug\Listing Files\ADC_PM.lst</v>
+<v>dcsd-000\dcsd\CortexM0\ARM_GCC_493\Debug\Listing Files\B.lst</v>
+<v>dcsd-000\dcsd\CortexM0\ARM_GCC_493\Debug\Listing Files\B_PM.lst</v>
+<v>dcsd-000\dcsd\CortexM0\ARM_GCC_493\Debug\Listing Files\Bootloadable_1.lst</v>
+<v>dcsd-000\dcsd\CortexM0\ARM_GCC_493\Debug\Listing Files\Cm0Start.lst</v>
+<v>dcsd-000\dcsd\CortexM0\ARM_GCC_493\Debug\Listing Files\CyBootAsmGnu.lst</v>
+<v>dcsd-000\dcsd\CortexM0\ARM_GCC_493\Debug\Listing Files\cybootloader.lst</v>
+<v>dcsd-000\dcsd\CortexM0\ARM_GCC_493\Debug\Listing Files\Cyclk12.lst</v>
+<v>dcsd-000\dcsd\CortexM0\ARM_GCC_493\Debug\Listing Files\cyfitter_cfg.lst</v>
+<v>dcsd-000\dcsd\CortexM0\ARM_GCC_493\Debug\Listing Files\CyFlash.lst</v>
+<v>dcsd-000\dcsd\CortexM0\ARM_GCC_493\Debug\Listing Files\CyLFClk.lst</v>
+<v>dcsd-000\dcsd\CortexM0\ARM_GCC_493\Debug\Listing Files\CyLib.lst</v>
+<v>dcsd-000\dcsd\CortexM0\ARM_GCC_493\Debug\Listing Files\cymetadata.lst</v>
+<v>dcsd-000\dcsd\CortexM0\ARM_GCC_493\Debug\Listing Files\cyPm.lst</v>
+<v>dcsd-000\dcsd\CortexM0\ARM_GCC_493\Debug\Listing Files\cyutils.lst</v>
+<v>dcsd-000\dcsd\CortexM0\ARM_GCC_493\Debug\Listing Files\direction.lst</v>
+<v>dcsd-000\dcsd\CortexM0\ARM_GCC_493\Debug\Listing Files\direction_PM.lst</v>
+<v>dcsd-000\dcsd\CortexM0\ARM_GCC_493\Debug\Listing Files\EEPROM.lst</v>
+<v>dcsd-000\dcsd\CortexM0\ARM_GCC_493\Debug\Listing Files\enable.lst</v>
+<v>dcsd-000\dcsd\CortexM0\ARM_GCC_493\Debug\Listing Files\enable_PM.lst</v>
+<v>dcsd-000\dcsd\CortexM0\ARM_GCC_493\Debug\Listing Files\err.lst</v>
+<v>dcsd-000\dcsd\CortexM0\ARM_GCC_493\Debug\Listing Files\err_PM.lst</v>
+<v>dcsd-000\dcsd\CortexM0\ARM_GCC_493\Debug\Listing Files\error.lst</v>
+<v>dcsd-000\dcsd\CortexM0\ARM_GCC_493\Debug\Listing Files\error_PM.lst</v>
+<v>dcsd-000\dcsd\CortexM0\ARM_GCC_493\Debug\Listing Files\fault.lst</v>
+<v>dcsd-000\dcsd\CortexM0\ARM_GCC_493\Debug\Listing Files\fault_PM.lst</v>
+<v>dcsd-000\dcsd\CortexM0\ARM_GCC_493\Debug\Listing Files\isense.lst</v>
+<v>dcsd-000\dcsd\CortexM0\ARM_GCC_493\Debug\Listing Files\isense_PM.lst</v>
+<v>dcsd-000\dcsd\CortexM0\ARM_GCC_493\Debug\Listing Files\main.lst</v>
+<v>dcsd-000\dcsd\CortexM0\ARM_GCC_493\Debug\Listing Files\ovc.lst</v>
+<v>dcsd-000\dcsd\CortexM0\ARM_GCC_493\Debug\Listing Files\ovc_PM.lst</v>
+<v>dcsd-000\dcsd\CortexM0\ARM_GCC_493\Debug\Listing Files\phase.lst</v>
+<v>dcsd-000\dcsd\CortexM0\ARM_GCC_493\Debug\Listing Files\phase_PM.lst</v>
+<v>dcsd-000\dcsd\CortexM0\ARM_GCC_493\Debug\Listing Files\PWM_MOT.lst</v>
+<v>dcsd-000\dcsd\CortexM0\ARM_GCC_493\Debug\Listing Files\PWM_MOT_PM.lst</v>
+<v>dcsd-000\dcsd\CortexM0\ARM_GCC_493\Debug\Listing Files\pwmClk.lst</v>
+<v>dcsd-000\dcsd\CortexM0\ARM_GCC_493\Debug\Listing Files\QDEC.lst</v>
+<v>dcsd-000\dcsd\CortexM0\ARM_GCC_493\Debug\Listing Files\QDEC_Cnt16.lst</v>
+<v>dcsd-000\dcsd\CortexM0\ARM_GCC_493\Debug\Listing Files\QDEC_Cnt16_PM.lst</v>
+<v>dcsd-000\dcsd\CortexM0\ARM_GCC_493\Debug\Listing Files\QDEC_INT.lst</v>
+<v>dcsd-000\dcsd\CortexM0\ARM_GCC_493\Debug\Listing Files\QDEC_isr.lst</v>
+<v>dcsd-000\dcsd\CortexM0\ARM_GCC_493\Debug\Listing Files\QDEC_PM.lst</v>
+<v>dcsd-000\dcsd\CortexM0\ARM_GCC_493\Debug\Listing Files\reset.lst</v>
+<v>dcsd-000\dcsd\CortexM0\ARM_GCC_493\Debug\Listing Files\reset_PM.lst</v>
+<v>dcsd-000\dcsd\CortexM0\ARM_GCC_493\Debug\Listing Files\rxISR.lst</v>
+<v>dcsd-000\dcsd\CortexM0\ARM_GCC_493\Debug\Listing Files\sleep.lst</v>
+<v>dcsd-000\dcsd\CortexM0\ARM_GCC_493\Debug\Listing Files\sleep_PM.lst</v>
+<v>dcsd-000\dcsd\CortexM0\ARM_GCC_493\Debug\Listing Files\step.lst</v>
+<v>dcsd-000\dcsd\CortexM0\ARM_GCC_493\Debug\Listing Files\step_PM.lst</v>
+<v>dcsd-000\dcsd\CortexM0\ARM_GCC_493\Debug\Listing Files\stepISR.lst</v>
+<v>dcsd-000\dcsd\CortexM0\ARM_GCC_493\Debug\Listing Files\TX_SEND.lst</v>
+<v>dcsd-000\dcsd\CortexM0\ARM_GCC_493\Debug\Listing Files\TX_SEND_PM.lst</v>
+<v>dcsd-000\dcsd\CortexM0\ARM_GCC_493\Debug\Listing Files\txISR.lst</v>
+<v>dcsd-000\dcsd\CortexM0\ARM_GCC_493\Debug\Listing Files\UART.lst</v>
+<v>dcsd-000\dcsd\CortexM0\ARM_GCC_493\Debug\Listing Files\UART_BOOT.lst</v>
+<v>dcsd-000\dcsd\CortexM0\ARM_GCC_493\Debug\Listing Files\UART_PM.lst</v>
+<v>dcsd-000\dcsd\CortexM0\ARM_GCC_493\Debug\Listing Files\UART_rx.lst</v>
+<v>dcsd-000\dcsd\CortexM0\ARM_GCC_493\Debug\Listing Files\UART_rx_PM.lst</v>
+<v>dcsd-000\dcsd\CortexM0\ARM_GCC_493\Debug\Listing Files\UART_SCBCLK.lst</v>
+<v>dcsd-000\dcsd\CortexM0\ARM_GCC_493\Debug\Listing Files\UART_SPI_UART.lst</v>
+<v>dcsd-000\dcsd\CortexM0\ARM_GCC_493\Debug\Listing Files\UART_SPI_UART_INT.lst</v>
+<v>dcsd-000\dcsd\CortexM0\ARM_GCC_493\Debug\Listing Files\UART_tx.lst</v>
+<v>dcsd-000\dcsd\CortexM0\ARM_GCC_493\Debug\Listing Files\UART_tx_PM.lst</v>
+<v>dcsd-000\dcsd\CortexM0\ARM_GCC_493\Debug\Listing Files\UART_UART.lst</v>
+<v>dcsd-000\dcsd\CortexM0\ARM_GCC_493\Debug\Listing Files\UART_UART_BOOT.lst</v>
+<v>dcsd-000\dcsd\CortexM0\ARM_GCC_493\Debug\Listing Files\vin.lst</v>
+<v>dcsd-000\dcsd\CortexM0\ARM_GCC_493\Debug\Listing Files\vin_PM.lst</v>
+<v>dcsd-000\dcsd\CortexM0\ARM_GCC_493\Debug\dcsd.cyacd</v>
+<v>dcsd-000\dcsd\CortexM0\ARM_GCC_493\Debug\dcsd.elf</v>
+<v>dcsd-000\dcsd\CortexM0\ARM_GCC_493\Debug\dcsd.hex</v>
+<v>dcsd-000\dcsd\CortexM0\ARM_GCC_493\Debug\dcsd.map</v>
+<v>dcsd-000\dcsd\dcsd.gpdsc</v>
+<v>dcsd-000\dcsd\dcsd.rpt</v>
+<v>dcsd-000\dcsd\dcsd_timing.html</v>
+</ExpandedNodeIds>
+<VisibleNodeIds>
+<v>dcsd-000</v>
+<v>dcsd-000\dcsd</v>
+<v>dcsd-000\dcsd\CortexM0</v>
+<v>dcsd-000\dcsd\CortexM0\ARM_GCC_493</v>
+<v>dcsd-000\dcsd\CortexM0\ARM_GCC_493\Debug</v>
+<v>dcsd-000\dcsd\CortexM0\ARM_GCC_493\Debug\Listing Files</v>
+<v>dcsd-000\dcsd\CortexM0\ARM_GCC_493\Debug\Listing Files\A.lst</v>
+<v>dcsd-000\dcsd\CortexM0\ARM_GCC_493\Debug\Listing Files\A_PM.lst</v>
+<v>dcsd-000\dcsd\CortexM0\ARM_GCC_493\Debug\Listing Files\ADC.lst</v>
+<v>dcsd-000\dcsd\CortexM0\ARM_GCC_493\Debug\Listing Files\ADC_INT.lst</v>
+<v>dcsd-000\dcsd\CortexM0\ARM_GCC_493\Debug\Listing Files\ADC_intClock.lst</v>
+<v>dcsd-000\dcsd\CortexM0\ARM_GCC_493\Debug\Listing Files\ADC_IRQ.lst</v>
+<v>dcsd-000\dcsd\CortexM0\ARM_GCC_493\Debug\Listing Files\ADC_PM.lst</v>
+<v>dcsd-000\dcsd\CortexM0\ARM_GCC_493\Debug\Listing Files\B.lst</v>
+<v>dcsd-000\dcsd\CortexM0\ARM_GCC_493\Debug\Listing Files\B_PM.lst</v>
+<v>dcsd-000\dcsd\CortexM0\ARM_GCC_493\Debug\Listing Files\Bootloadable_1.lst</v>
+<v>dcsd-000\dcsd\CortexM0\ARM_GCC_493\Debug\Listing Files\Cm0Start.lst</v>
+<v>dcsd-000\dcsd\CortexM0\ARM_GCC_493\Debug\Listing Files\CyBootAsmGnu.lst</v>
+<v>dcsd-000\dcsd\CortexM0\ARM_GCC_493\Debug\Listing Files\cybootloader.lst</v>
+<v>dcsd-000\dcsd\CortexM0\ARM_GCC_493\Debug\Listing Files\Cyclk12.lst</v>
+<v>dcsd-000\dcsd\CortexM0\ARM_GCC_493\Debug\Listing Files\cyfitter_cfg.lst</v>
+<v>dcsd-000\dcsd\CortexM0\ARM_GCC_493\Debug\Listing Files\CyFlash.lst</v>
+<v>dcsd-000\dcsd\CortexM0\ARM_GCC_493\Debug\Listing Files\CyLFClk.lst</v>
+<v>dcsd-000\dcsd\CortexM0\ARM_GCC_493\Debug\Listing Files\CyLib.lst</v>
+<v>dcsd-000\dcsd\CortexM0\ARM_GCC_493\Debug\Listing Files\cymetadata.lst</v>
+<v>dcsd-000\dcsd\CortexM0\ARM_GCC_493\Debug\Listing Files\cyPm.lst</v>
+<v>dcsd-000\dcsd\CortexM0\ARM_GCC_493\Debug\Listing Files\cyutils.lst</v>
+<v>dcsd-000\dcsd\CortexM0\ARM_GCC_493\Debug\Listing Files\direction.lst</v>
+<v>dcsd-000\dcsd\CortexM0\ARM_GCC_493\Debug\Listing Files\direction_PM.lst</v>
+<v>dcsd-000\dcsd\CortexM0\ARM_GCC_493\Debug\Listing Files\EEPROM.lst</v>
+<v>dcsd-000\dcsd\CortexM0\ARM_GCC_493\Debug\Listing Files\enable.lst</v>
+<v>dcsd-000\dcsd\CortexM0\ARM_GCC_493\Debug\Listing Files\enable_PM.lst</v>
+<v>dcsd-000\dcsd\CortexM0\ARM_GCC_493\Debug\Listing Files\err.lst</v>
+<v>dcsd-000\dcsd\CortexM0\ARM_GCC_493\Debug\Listing Files\err_PM.lst</v>
+<v>dcsd-000\dcsd\CortexM0\ARM_GCC_493\Debug\Listing Files\error.lst</v>
+<v>dcsd-000\dcsd\CortexM0\ARM_GCC_493\Debug\Listing Files\error_PM.lst</v>
+<v>dcsd-000\dcsd\CortexM0\ARM_GCC_493\Debug\Listing Files\fault.lst</v>
+<v>dcsd-000\dcsd\CortexM0\ARM_GCC_493\Debug\Listing Files\fault_PM.lst</v>
+<v>dcsd-000\dcsd\CortexM0\ARM_GCC_493\Debug\Listing Files\isense.lst</v>
+<v>dcsd-000\dcsd\CortexM0\ARM_GCC_493\Debug\Listing Files\isense_PM.lst</v>
+<v>dcsd-000\dcsd\CortexM0\ARM_GCC_493\Debug\Listing Files\main.lst</v>
+<v>dcsd-000\dcsd\CortexM0\ARM_GCC_493\Debug\Listing Files\ovc.lst</v>
+<v>dcsd-000\dcsd\CortexM0\ARM_GCC_493\Debug\Listing Files\ovc_PM.lst</v>
+<v>dcsd-000\dcsd\CortexM0\ARM_GCC_493\Debug\Listing Files\phase.lst</v>
+<v>dcsd-000\dcsd\CortexM0\ARM_GCC_493\Debug\Listing Files\phase_PM.lst</v>
+<v>dcsd-000\dcsd\CortexM0\ARM_GCC_493\Debug\Listing Files\PWM_MOT.lst</v>
+<v>dcsd-000\dcsd\CortexM0\ARM_GCC_493\Debug\Listing Files\PWM_MOT_PM.lst</v>
+<v>dcsd-000\dcsd\CortexM0\ARM_GCC_493\Debug\Listing Files\pwmClk.lst</v>
+</VisibleNodeIds>
+</CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
+</TreeStates>
+<TreeKeysV2>
+<v>Datasheet</v>
+</TreeKeysV2>
+<TreeStatesV2>
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
+<ExpandedNodeIds>
+<v>dcsd-000</v>
+<v>dcsd-000\dcsd</v>
+<v>dcsd-000\dcsd\PSoC 4 Architecture TRM</v>
+<v>dcsd-000\dcsd\PSoC 4200 Family Datasheet</v>
+<v>dcsd-000\dcsd\System Reference Guides</v>
+<v>dcsd-000\dcsd\System Reference Guides\cy_boot_v5_40</v>
+<v>dcsd-000\dcsd\System Reference Guides\cy_lfclk_v1_10</v>
+<v>dcsd-000\dcsd\ADC_SAR_SEQ_P4_v2_40.pdf</v>
+<v>dcsd-000\dcsd\Bootloadable_v1_50.pdf</v>
+<v>dcsd-000\dcsd\cy_clock_v2_20</v>
+<v>dcsd-000\dcsd\cy_clock_v2_20\cy_clock_v2_20.pdf</v>
+<v>dcsd-000\dcsd\cy_isr_v1_70</v>
+<v>dcsd-000\dcsd\cy_isr_v1_70\cy_isr_v1_70.pdf</v>
+<v>dcsd-000\dcsd\cy_pins_v2_20</v>
+<v>dcsd-000\dcsd\cy_pins_v2_20\cy_pins_v2_20.pdf</v>
+<v>dcsd-000\dcsd\Em_EEPROM_v1_10.pdf</v>
+<v>dcsd-000\dcsd\Gnd_v1_0.pdf</v>
+<v>dcsd-000\dcsd\LED_v1_0</v>
+<v>dcsd-000\dcsd\LED_v1_0\LED_v1_0.pdf</v>
+<v>dcsd-000\dcsd\QuadDec_v3_0.pdf</v>
+<v>dcsd-000\dcsd\SCB_P4_v3_20.pdf</v>
+<v>dcsd-000\dcsd\TCPWM_P4_v2_10</v>
+<v>dcsd-000\dcsd\TCPWM_P4_v2_10\TCPWM_P4_v2_10.pdf</v>
+</ExpandedNodeIds>
+<VisibleNodeIds>
+<v>dcsd-000</v>
+<v>dcsd-000\dcsd</v>
+<v>dcsd-000\dcsd\PSoC 4 Architecture TRM</v>
+<v>dcsd-000\dcsd\PSoC 4200 Family Datasheet</v>
+<v>dcsd-000\dcsd\System Reference Guides</v>
+<v>dcsd-000\dcsd\System Reference Guides\cy_boot_v5_40</v>
+<v>dcsd-000\dcsd\System Reference Guides\cy_lfclk_v1_10</v>
+<v>dcsd-000\dcsd\ADC_SAR_SEQ_P4_v2_40.pdf</v>
+<v>dcsd-000\dcsd\Bootloadable_v1_50.pdf</v>
+<v>dcsd-000\dcsd\cy_clock_v2_20</v>
+<v>dcsd-000\dcsd\cy_clock_v2_20\cy_clock_v2_20.pdf</v>
+<v>dcsd-000\dcsd\cy_isr_v1_70</v>
+<v>dcsd-000\dcsd\cy_isr_v1_70\cy_isr_v1_70.pdf</v>
+<v>dcsd-000\dcsd\cy_pins_v2_20</v>
+<v>dcsd-000\dcsd\cy_pins_v2_20\cy_pins_v2_20.pdf</v>
+<v>dcsd-000\dcsd\Em_EEPROM_v1_10.pdf</v>
+<v>dcsd-000\dcsd\Gnd_v1_0.pdf</v>
+<v>dcsd-000\dcsd\LED_v1_0</v>
+<v>dcsd-000\dcsd\LED_v1_0\LED_v1_0.pdf</v>
+<v>dcsd-000\dcsd\QuadDec_v3_0.pdf</v>
+<v>dcsd-000\dcsd\SCB_P4_v3_20.pdf</v>
+<v>dcsd-000\dcsd\TCPWM_P4_v2_10</v>
+<v>dcsd-000\dcsd\TCPWM_P4_v2_10\TCPWM_P4_v2_10.pdf</v>
+</VisibleNodeIds>
+</CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
+</TreeStatesV2>
+</CyGuid_1b906a0f-a7b6-4e4d-a428-82f98b53cb35>
+</dataGuid>
+</userData>
+</CyGuid_fdba8dfd-b15b-4469-9bbb-9e40c3e70997>
+<Unloaded />
+<OpenDocs />
+<config v="" />
+<AutoUpdate v="true" />
+</CyGuid_843a90a4-0c4b-4e44-991d-05e7fb117a21>
+</CyXmlSerializer>
