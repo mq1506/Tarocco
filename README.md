@@ -16,7 +16,7 @@ Based upon the Tarroco board
 
 Please buy one and support the creator on https://www.crowdsupply.com/citrus-cnc/tarocco
 
-![Top](Images/Board Top.png)
+![Top](Images/Board Top.jpg)
 
 
 
