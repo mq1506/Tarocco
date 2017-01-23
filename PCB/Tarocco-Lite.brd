@@ -239,8 +239,10 @@
 <text x="10.4775" y="8.5725" size="1.016" layer="25" rot="R180" align="center-right">+8-36V</text>
 <text x="10.795" y="19.3675" size="1.016" layer="25" align="center-left">MOTOR</text>
 <text x="50.8" y="3.4925" size="1.4224" layer="25" rot="R90" align="center-left">CONTROL</text>
-<text x="16.8275" y="5.08" size="1.6764" layer="25" align="center-left">+</text>
-<text x="16.51" y="25.7175" size="2.1844" layer="25" align="center-left">+</text>
+<text x="16.51" y="5.08" size="2.54" layer="25" align="center-left">+</text>
+<text x="16.51" y="25.7175" size="2.54" layer="25" align="center-left">+</text>
+<text x="24.765" y="0.9525" size="1.016" layer="25" align="center-left">M^6 Designs</text>
+<text x="11.7475" y="10.795" size="1.016" layer="25" ratio="16" align="center-left">Tarocco-Lite</text>
 </plain>
 <libraries>
 <library name="adafruit">
@@ -1027,6 +1029,30 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <wire x1="43.7388" y1="25.9588" x2="44.0944" y2="25.6032" width="0.1778" layer="1"/>
 <wire x1="44.0944" y1="18.3134" x2="44.14" y2="18.195" width="0.1778" layer="1"/>
 <wire x1="43.7388" y1="25.9588" x2="43.64" y2="26.035" width="0.1778" layer="1"/>
+<polygon width="0.254" layer="1">
+<vertex x="27.94" y="19.3675"/>
+<vertex x="27.94" y="16.1925"/>
+<vertex x="20.0025" y="16.1925"/>
+<vertex x="20.0025" y="12.7"/>
+<vertex x="18.0975" y="12.7"/>
+<vertex x="14.9225" y="15.875"/>
+<vertex x="14.9225" y="19.3675"/>
+</polygon>
+<via x="15.5575" y="18.7325" extent="1-16" drill="0.6"/>
+<via x="15.5575" y="16.1925" extent="1-16" drill="0.6"/>
+<via x="18.415" y="13.335" extent="1-16" drill="0.6"/>
+<via x="19.05" y="16.1925" extent="1-16" drill="0.6"/>
+<via x="19.05" y="14.9225" extent="1-16" drill="0.6"/>
+<via x="17.4625" y="14.9225" extent="1-16" drill="0.6"/>
+<via x="17.145" y="16.1925" extent="1-16" drill="0.6"/>
+<via x="15.5575" y="17.4625" extent="1-16" drill="0.6"/>
+<via x="17.145" y="17.4625" extent="1-16" drill="0.6"/>
+<via x="19.05" y="17.4625" extent="1-16" drill="0.6"/>
+<wire x1="20.6375" y1="17.78" x2="20.6375" y2="17.78" width="0" layer="19" extent="1-16"/>
+<via x="19.05" y="18.7325" extent="1-16" drill="0.6"/>
+<via x="17.145" y="18.7325" extent="1-16" drill="0.6"/>
+<wire x1="20.6375" y1="16.8275" x2="20.6375" y2="16.8275" width="0" layer="19" extent="1-16"/>
+<wire x1="20.6375" y1="18.7325" x2="20.6375" y2="18.7325" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="5V">
 <contactref element="ENCODER" pad="3"/>
