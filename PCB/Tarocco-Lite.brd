@@ -238,11 +238,27 @@
 </polygon>
 <text x="10.4775" y="8.5725" size="1.016" layer="25" rot="R180" align="center-right">+8-36V</text>
 <text x="10.795" y="19.3675" size="1.016" layer="25" align="center-left">MOTOR</text>
-<text x="50.8" y="3.4925" size="1.4224" layer="25" rot="R90" align="center-left">CONTROL</text>
+<text x="50.8" y="3.175" size="1.4224" layer="25" rot="R90" align="center-left">CONTROL</text>
 <text x="16.51" y="5.08" size="2.54" layer="25" align="center-left">+</text>
 <text x="16.51" y="25.7175" size="2.54" layer="25" align="center-left">+</text>
 <text x="24.765" y="0.9525" size="1.016" layer="25" align="center-left">M^6 Designs</text>
 <text x="11.7475" y="10.795" size="1.016" layer="25" ratio="16" align="center-left">Tarocco-Lite</text>
+<text x="23.495" y="9.525" size="0.6096" layer="25" align="center-left">C12</text>
+<text x="24.4475" y="11.1125" size="0.6096" layer="25" rot="R90" align="center-left">C13</text>
+<text x="29.21" y="12.065" size="0.6096" layer="25" align="center-left">R15</text>
+<text x="27.94" y="14.605" size="0.6096" layer="25" rot="R90" align="center-left">R14</text>
+<text x="32.385" y="9.525" size="0.6096" layer="25" rot="R90" align="center-left">C16</text>
+<text x="25.4" y="3.175" size="0.6096" layer="25" rot="R90" align="center-left">C14</text>
+<text x="45.72" y="16.8275" size="0.6096" layer="25" rot="R90" align="center-left">C1</text>
+<text x="49.2125" y="19.05" size="0.6096" layer="25" align="center-left">R11</text>
+<text x="51.7525" y="19.05" size="0.6096" layer="25" align="center-left">R12</text>
+<text x="54.2925" y="19.05" size="0.6096" layer="25" align="center-left">C11</text>
+<text x="40.64" y="22.225" size="0.6096" layer="25" align="center-left">R13</text>
+<text x="33.9725" y="7.3025" size="0.6096" layer="25" align="center-left">C2</text>
+<text x="33.9725" y="4.1275" size="0.6096" layer="25" align="center-left">C3</text>
+<text x="36.5125" y="0.635" size="0.8128" layer="25" align="center-left">VIN</text>
+<text x="43.4975" y="0.635" size="0.8128" layer="25" align="center-left">ERR</text>
+<text x="37.7825" y="5.08" size="0.4064" layer="26" rot="MR270" align="center-right">GND</text>
 </plain>
 <libraries>
 <library name="adafruit">
@@ -695,6 +711,64 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </package>
 </packages>
 </library>
+<library name="SparkFun-Aesthetics">
+<description>&lt;h3&gt;SparkFun Aesthetics&lt;/h3&gt;
+This library contiains non-functional items such as logos, build/ordering notes, frame blocks, etc. 
+&lt;br&gt;
+&lt;br&gt;
+We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
+&lt;br&gt;
+&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
+&lt;br&gt;
+&lt;br&gt;
+You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
+<packages>
+<package name="OSHW-LOGO-S_COPPER">
+<description>&lt;h3&gt;Open-Source Hardware (OSHW) Logo - Small - Top Copper&lt;/h3&gt;
+&lt;p&gt;Exposed copper logo for open-source hardware designs.&lt;/p&gt;
+&lt;p&gt;Devices using:
+&lt;ul&gt;&lt;li&gt;OSHW_LOGO&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;</description>
+<polygon width="0.15" layer="1">
+<vertex x="0.3947" y="-0.9528" curve="9.498218"/>
+<vertex x="0.5465" y="-0.8746"/>
+<vertex x="0.9235" y="-1.182"/>
+<vertex x="1.182" y="-0.9235"/>
+<vertex x="0.8746" y="-0.5465" curve="19.000773"/>
+<vertex x="1.0049" y="-0.232"/>
+<vertex x="1.4888" y="-0.1828"/>
+<vertex x="1.4888" y="0.1828"/>
+<vertex x="1.0049" y="0.232" curve="19.000773"/>
+<vertex x="0.8746" y="0.5465"/>
+<vertex x="1.182" y="0.9235"/>
+<vertex x="0.9235" y="1.182"/>
+<vertex x="0.5465" y="0.8746" curve="19.000773"/>
+<vertex x="0.232" y="1.0049"/>
+<vertex x="0.1828" y="1.4888"/>
+<vertex x="-0.1828" y="1.4888"/>
+<vertex x="-0.232" y="1.0049" curve="19.000773"/>
+<vertex x="-0.5465" y="0.8746"/>
+<vertex x="-0.9235" y="1.182"/>
+<vertex x="-1.182" y="0.9235"/>
+<vertex x="-0.8746" y="0.5465" curve="19.000773"/>
+<vertex x="-1.0049" y="0.232"/>
+<vertex x="-1.4888" y="0.1828"/>
+<vertex x="-1.4888" y="-0.1828"/>
+<vertex x="-1.0049" y="-0.232" curve="19.000773"/>
+<vertex x="-0.8746" y="-0.5465"/>
+<vertex x="-1.182" y="-0.9235"/>
+<vertex x="-0.9235" y="-1.182"/>
+<vertex x="-0.5465" y="-0.8746" curve="9.498218"/>
+<vertex x="-0.3947" y="-0.9528"/>
+<vertex x="-0.1794" y="-0.4331" curve="-67.514699"/>
+<vertex x="-0.4688" y="0" curve="-247.473915"/>
+<vertex x="0.1794" y="-0.4331"/>
+</polygon>
+</package>
+</packages>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -928,7 +1002,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <element name="R15" library="SparkFun-Resistors" package="0603" value="100k" x="29.845" y="10.795" smashed="yes">
 <attribute name="PROD_ID" value="RES-07828" x="29.845" y="10.795" size="1.778" layer="27" display="off"/>
 </element>
-<element name="R16" library="SparkFun-Resistors" package="1210" value="0.1" x="20.32" y="22.86" smashed="yes">
+<element name="R16" library="SparkFun-Resistors" package="1210" value="0.2" x="20.32" y="22.86" smashed="yes">
 <attribute name="PROD_ID" value="RES-12374" x="20.32" y="22.86" size="1.778" layer="27" display="off"/>
 </element>
 <element name="R2" library="adafruit" package="R0603" value="1k" x="39.6875" y="2.54" smashed="yes" rot="R90"/>
@@ -950,6 +1024,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <element name="VIN" library="adafruit" package="CHIP-LED0603" value="" x="37.465" y="2.54" smashed="yes">
 <attribute name="VALUE" x="39.37" y="1.905" size="1.27" layer="27" rot="R90"/>
 </element>
+<element name="U$1" library="SparkFun-Aesthetics" package="OSHW-LOGO-S_COPPER" value="" x="29.845" y="6.6675"/>
 </elements>
 <signals>
 <signal name="GND">

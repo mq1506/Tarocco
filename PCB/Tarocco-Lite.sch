@@ -7650,7 +7650,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="R15" library="SparkFun-Resistors" deviceset="100KOHM" device="-0603-1/10W-1%" value="100k"/>
 <part name="C16" library="SparkFun-Capacitors" deviceset="1.0NF/1000PF" device="-0603-50V-10%" value="1nF"/>
 <part name="GND15" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="R16" library="SparkFun-Resistors" deviceset="0.1OHM" device="-1210-1/2W-1%" value="0.1"/>
+<part name="R16" library="SparkFun-Resistors" deviceset="0.1OHM" device="-1210-1/2W-1%" value="0.2"/>
 <part name="MOTOR" library="JST XH Connectors v1-0" deviceset="JST-XH-02-PIN" device="-LONG-PAD"/>
 </parts>
 <sheets>
