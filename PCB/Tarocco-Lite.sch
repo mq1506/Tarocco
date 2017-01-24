@@ -7644,7 +7644,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="C12" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0603-100V-10%" value="0.1uF"/>
 <part name="C13" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0603-25V-(+80/-20%)" value="0.1uF"/>
 <part name="C14" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0603-25V-(+80/-20%)" value="0.1uF"/>
-<part name="C15" library="SparkFun-Capacitors" deviceset="100UF-POLAR" device="-RADIAL-2.5MM-25V-20%" value="100uF"/>
+<part name="C15" library="SparkFun-Capacitors" deviceset="100UF-POLAR" device="-25V-20%(ELEC)" value="100uF"/>
 <part name="R13" library="SparkFun-Resistors" deviceset="10KOHM" device="-0603-1/10W-1%" value="10k"/>
 <part name="R14" library="SparkFun-Resistors" deviceset="10KOHM" device="-0603-1/10W-1%" value="10k"/>
 <part name="R15" library="SparkFun-Resistors" deviceset="100KOHM" device="-0603-1/10W-1%" value="100k"/>
@@ -8296,6 +8296,25 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="104,1,86.36,83.82,IC1,VCCD,N$19,,,"/>
+<approved hash="104,1,86.36,86.36,IC1,VDD,5V,,,"/>
+<approved hash="104,1,86.36,88.9,IC1,VSS,GND,,,"/>
+<approved hash="106,1,45.72,71.12,N$33,,,,,"/>
+<approved hash="106,1,45.72,68.58,N$34,,,,,"/>
+<approved hash="106,1,45.72,66.04,N$35,,,,,"/>
+<approved hash="106,1,86.36,71.12,N$46,,,,,"/>
+<approved hash="106,1,86.36,73.66,N$47,,,,,"/>
+<approved hash="106,1,86.36,76.2,N$48,,,,,"/>
+<approved hash="106,1,86.36,78.74,N$49,,,,,"/>
+<approved hash="106,1,45.72,76.2,OVC,,,,,"/>
+<approved hash="113,1,19.6427,124.718,CONTROL,,,,,"/>
+<approved hash="113,1,72.9827,122.178,ENCODER,,,,,"/>
+<approved hash="113,1,7.94173,64.77,ERR,,,,,"/>
+<approved hash="113,1,18.1017,64.77,VIN,,,,,"/>
+<approved hash="113,1,111.083,122.178,SERIAL,,,,,"/>
+<approved hash="113,1,19.6427,39.1753,PGRM,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 </eagle>
