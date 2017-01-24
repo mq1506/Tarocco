@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\g\AppData\Local\Temp\cczGrZZM.s 			page 1
+ARM GAS  C:\Users\Marcus\AppData\Local\Temp\ccHP6bow.s 			page 1
 
 
    1              		.cpu cortex-m0
@@ -25,79 +25,79 @@ ARM GAS  C:\Users\g\AppData\Local\Temp\cczGrZZM.s 			page 1
   22              		.type	QDEC_Cnt16_SaveConfig, %function
   23              	QDEC_Cnt16_SaveConfig:
   24              	.LFB0:
-  25              		.file 1 ".\\Generated_Source\\PSoC4\\QDEC_Cnt16_PM.c"
-   1:.\Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** /*******************************************************************************
-   2:.\Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** * File Name: QDEC_Cnt16_PM.c  
-   3:.\Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** * Version 3.0
-   4:.\Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** *
-   5:.\Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** *  Description:
-   6:.\Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** *    This file provides the power management source code to API for the
-   7:.\Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** *    Counter.  
-   8:.\Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** *
-   9:.\Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** *   Note:
-  10:.\Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** *     None
-  11:.\Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** *
-  12:.\Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** ********************************************************************************
-  13:.\Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** * Copyright 2008-2012, Cypress Semiconductor Corporation.  All rights reserved.
-  14:.\Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** * You may use this file only in accordance with the license, terms, conditions, 
-  15:.\Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** * disclaimers, and limitations in the end user license agreement accompanying 
-  16:.\Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** * the software package with which this file was provided.
-  17:.\Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** *******************************************************************************/
-  18:.\Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** 
-  19:.\Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** #include "QDEC_Cnt16.h"
-  20:.\Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** 
-  21:.\Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** static QDEC_Cnt16_backupStruct QDEC_Cnt16_backup;
-  22:.\Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** 
-  23:.\Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** 
-  24:.\Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** /*******************************************************************************
-  25:.\Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** * Function Name: QDEC_Cnt16_SaveConfig
-  26:.\Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** ********************************************************************************
-  27:.\Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** * Summary:
-  28:.\Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** *     Save the current user configuration
-  29:.\Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** *
-  30:.\Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** * Parameters:  
-  31:.\Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** *  void
-  32:.\Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** *
-ARM GAS  C:\Users\g\AppData\Local\Temp\cczGrZZM.s 			page 2
+  25              		.file 1 "Generated_Source\\PSoC4\\QDEC_Cnt16_PM.c"
+   1:Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** /*******************************************************************************
+   2:Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** * File Name: QDEC_Cnt16_PM.c  
+   3:Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** * Version 3.0
+   4:Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** *
+   5:Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** *  Description:
+   6:Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** *    This file provides the power management source code to API for the
+   7:Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** *    Counter.  
+   8:Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** *
+   9:Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** *   Note:
+  10:Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** *     None
+  11:Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** *
+  12:Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** ********************************************************************************
+  13:Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** * Copyright 2008-2012, Cypress Semiconductor Corporation.  All rights reserved.
+  14:Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** * You may use this file only in accordance with the license, terms, conditions, 
+  15:Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** * disclaimers, and limitations in the end user license agreement accompanying 
+  16:Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** * the software package with which this file was provided.
+  17:Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** *******************************************************************************/
+  18:Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** 
+  19:Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** #include "QDEC_Cnt16.h"
+  20:Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** 
+  21:Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** static QDEC_Cnt16_backupStruct QDEC_Cnt16_backup;
+  22:Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** 
+  23:Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** 
+  24:Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** /*******************************************************************************
+  25:Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** * Function Name: QDEC_Cnt16_SaveConfig
+  26:Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** ********************************************************************************
+  27:Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** * Summary:
+  28:Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** *     Save the current user configuration
+  29:Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** *
+  30:Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** * Parameters:  
+  31:Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** *  void
+  32:Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** *
+ARM GAS  C:\Users\Marcus\AppData\Local\Temp\ccHP6bow.s 			page 2
 
 
-  33:.\Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** * Return: 
-  34:.\Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** *  void
-  35:.\Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** *
-  36:.\Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** * Global variables:
-  37:.\Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** *  QDEC_Cnt16_backup:  Variables of this global structure are modified to 
-  38:.\Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** *  store the values of non retention configuration registers when Sleep() API is 
-  39:.\Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** *  called.
-  40:.\Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** *
-  41:.\Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** *******************************************************************************/
-  42:.\Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** void QDEC_Cnt16_SaveConfig(void) 
-  43:.\Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** {
+  33:Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** * Return: 
+  34:Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** *  void
+  35:Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** *
+  36:Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** * Global variables:
+  37:Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** *  QDEC_Cnt16_backup:  Variables of this global structure are modified to 
+  38:Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** *  store the values of non retention configuration registers when Sleep() API is 
+  39:Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** *  called.
+  40:Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** *
+  41:Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** *******************************************************************************/
+  42:Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** void QDEC_Cnt16_SaveConfig(void) 
+  43:Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** {
   26              		.loc 1 43 0
   27              		.cfi_startproc
   28 0000 10B5     		push	{r4, lr}
   29              		.cfi_def_cfa_offset 8
   30              		.cfi_offset 4, -8
   31              		.cfi_offset 14, -4
-  44:.\Generated_Source\PSoC4/QDEC_Cnt16_PM.c ****     #if (!QDEC_Cnt16_UsingFixedFunction)
-  45:.\Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** 
-  46:.\Generated_Source\PSoC4/QDEC_Cnt16_PM.c ****         QDEC_Cnt16_backup.CounterUdb = QDEC_Cnt16_ReadCounter();
+  44:Generated_Source\PSoC4/QDEC_Cnt16_PM.c ****     #if (!QDEC_Cnt16_UsingFixedFunction)
+  45:Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** 
+  46:Generated_Source\PSoC4/QDEC_Cnt16_PM.c ****         QDEC_Cnt16_backup.CounterUdb = QDEC_Cnt16_ReadCounter();
   32              		.loc 1 46 0
   33 0002 FFF7FEFF 		bl	QDEC_Cnt16_ReadCounter
   34              	.LVL0:
   35 0006 034C     		ldr	r4, .L2
-  47:.\Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** 
-  48:.\Generated_Source\PSoC4/QDEC_Cnt16_PM.c ****         #if(!QDEC_Cnt16_ControlRegRemoved)
-  49:.\Generated_Source\PSoC4/QDEC_Cnt16_PM.c ****             QDEC_Cnt16_backup.CounterControlRegister = QDEC_Cnt16_ReadControlRegister();
-  50:.\Generated_Source\PSoC4/QDEC_Cnt16_PM.c ****         #endif /* (!QDEC_Cnt16_ControlRegRemoved) */
-  51:.\Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** 
-  52:.\Generated_Source\PSoC4/QDEC_Cnt16_PM.c ****     #endif /* (!QDEC_Cnt16_UsingFixedFunction) */
-  53:.\Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** }
+  47:Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** 
+  48:Generated_Source\PSoC4/QDEC_Cnt16_PM.c ****         #if(!QDEC_Cnt16_ControlRegRemoved)
+  49:Generated_Source\PSoC4/QDEC_Cnt16_PM.c ****             QDEC_Cnt16_backup.CounterControlRegister = QDEC_Cnt16_ReadControlRegister();
+  50:Generated_Source\PSoC4/QDEC_Cnt16_PM.c ****         #endif /* (!QDEC_Cnt16_ControlRegRemoved) */
+  51:Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** 
+  52:Generated_Source\PSoC4/QDEC_Cnt16_PM.c ****     #endif /* (!QDEC_Cnt16_UsingFixedFunction) */
+  53:Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** }
   36              		.loc 1 53 0
   37              		@ sp needed
-  46:.\Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** 
+  46:Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** 
   38              		.loc 1 46 0
   39 0008 6080     		strh	r0, [r4, #2]
-  49:.\Generated_Source\PSoC4/QDEC_Cnt16_PM.c ****         #endif /* (!QDEC_Cnt16_ControlRegRemoved) */
+  49:Generated_Source\PSoC4/QDEC_Cnt16_PM.c ****         #endif /* (!QDEC_Cnt16_ControlRegRemoved) */
   40              		.loc 1 49 0
   41 000a FFF7FEFF 		bl	QDEC_Cnt16_ReadControlRegister
   42              	.LVL1:
@@ -118,58 +118,58 @@ ARM GAS  C:\Users\g\AppData\Local\Temp\cczGrZZM.s 			page 1
   57              		.thumb_func
   58              		.type	QDEC_Cnt16_RestoreConfig, %function
   59              	QDEC_Cnt16_RestoreConfig:
-ARM GAS  C:\Users\g\AppData\Local\Temp\cczGrZZM.s 			page 3
+ARM GAS  C:\Users\Marcus\AppData\Local\Temp\ccHP6bow.s 			page 3
 
 
   60              	.LFB1:
-  54:.\Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** 
-  55:.\Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** 
-  56:.\Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** /*******************************************************************************
-  57:.\Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** * Function Name: QDEC_Cnt16_RestoreConfig
-  58:.\Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** ********************************************************************************
-  59:.\Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** *
-  60:.\Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** * Summary:
-  61:.\Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** *  Restores the current user configuration.
-  62:.\Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** *
-  63:.\Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** * Parameters:  
-  64:.\Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** *  void
-  65:.\Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** *
-  66:.\Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** * Return: 
-  67:.\Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** *  void
-  68:.\Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** *
-  69:.\Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** * Global variables:
-  70:.\Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** *  QDEC_Cnt16_backup:  Variables of this global structure are used to 
-  71:.\Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** *  restore the values of non retention registers on wakeup from sleep mode.
-  72:.\Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** *
-  73:.\Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** *******************************************************************************/
-  74:.\Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** void QDEC_Cnt16_RestoreConfig(void) 
-  75:.\Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** {      
+  54:Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** 
+  55:Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** 
+  56:Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** /*******************************************************************************
+  57:Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** * Function Name: QDEC_Cnt16_RestoreConfig
+  58:Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** ********************************************************************************
+  59:Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** *
+  60:Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** * Summary:
+  61:Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** *  Restores the current user configuration.
+  62:Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** *
+  63:Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** * Parameters:  
+  64:Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** *  void
+  65:Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** *
+  66:Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** * Return: 
+  67:Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** *  void
+  68:Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** *
+  69:Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** * Global variables:
+  70:Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** *  QDEC_Cnt16_backup:  Variables of this global structure are used to 
+  71:Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** *  restore the values of non retention registers on wakeup from sleep mode.
+  72:Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** *
+  73:Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** *******************************************************************************/
+  74:Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** void QDEC_Cnt16_RestoreConfig(void) 
+  75:Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** {      
   61              		.loc 1 75 0
   62              		.cfi_startproc
   63 0000 10B5     		push	{r4, lr}
   64              		.cfi_def_cfa_offset 8
   65              		.cfi_offset 4, -8
   66              		.cfi_offset 14, -4
-  76:.\Generated_Source\PSoC4/QDEC_Cnt16_PM.c ****     #if (!QDEC_Cnt16_UsingFixedFunction)
-  77:.\Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** 
-  78:.\Generated_Source\PSoC4/QDEC_Cnt16_PM.c ****        QDEC_Cnt16_WriteCounter(QDEC_Cnt16_backup.CounterUdb);
+  76:Generated_Source\PSoC4/QDEC_Cnt16_PM.c ****     #if (!QDEC_Cnt16_UsingFixedFunction)
+  77:Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** 
+  78:Generated_Source\PSoC4/QDEC_Cnt16_PM.c ****        QDEC_Cnt16_WriteCounter(QDEC_Cnt16_backup.CounterUdb);
   67              		.loc 1 78 0
   68 0002 044C     		ldr	r4, .L5
-  79:.\Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** 
-  80:.\Generated_Source\PSoC4/QDEC_Cnt16_PM.c ****         #if(!QDEC_Cnt16_ControlRegRemoved)
-  81:.\Generated_Source\PSoC4/QDEC_Cnt16_PM.c ****             QDEC_Cnt16_WriteControlRegister(QDEC_Cnt16_backup.CounterControlRegister);
-  82:.\Generated_Source\PSoC4/QDEC_Cnt16_PM.c ****         #endif /* (!QDEC_Cnt16_ControlRegRemoved) */
-  83:.\Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** 
-  84:.\Generated_Source\PSoC4/QDEC_Cnt16_PM.c ****     #endif /* (!QDEC_Cnt16_UsingFixedFunction) */
-  85:.\Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** }
+  79:Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** 
+  80:Generated_Source\PSoC4/QDEC_Cnt16_PM.c ****         #if(!QDEC_Cnt16_ControlRegRemoved)
+  81:Generated_Source\PSoC4/QDEC_Cnt16_PM.c ****             QDEC_Cnt16_WriteControlRegister(QDEC_Cnt16_backup.CounterControlRegister);
+  82:Generated_Source\PSoC4/QDEC_Cnt16_PM.c ****         #endif /* (!QDEC_Cnt16_ControlRegRemoved) */
+  83:Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** 
+  84:Generated_Source\PSoC4/QDEC_Cnt16_PM.c ****     #endif /* (!QDEC_Cnt16_UsingFixedFunction) */
+  85:Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** }
   69              		.loc 1 85 0
   70              		@ sp needed
-  78:.\Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** 
+  78:Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** 
   71              		.loc 1 78 0
   72 0004 6088     		ldrh	r0, [r4, #2]
   73 0006 FFF7FEFF 		bl	QDEC_Cnt16_WriteCounter
   74              	.LVL2:
-  81:.\Generated_Source\PSoC4/QDEC_Cnt16_PM.c ****         #endif /* (!QDEC_Cnt16_ControlRegRemoved) */
+  81:Generated_Source\PSoC4/QDEC_Cnt16_PM.c ****         #endif /* (!QDEC_Cnt16_ControlRegRemoved) */
   75              		.loc 1 81 0
   76 000a 2079     		ldrb	r0, [r4, #4]
   77 000c FFF7FEFF 		bl	QDEC_Cnt16_WriteControlRegister
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\g\AppData\Local\Temp\cczGrZZM.s 			page 1
   80 0010 10BD     		pop	{r4, pc}
   81              	.L6:
   82 0012 C046     		.align	2
-ARM GAS  C:\Users\g\AppData\Local\Temp\cczGrZZM.s 			page 4
+ARM GAS  C:\Users\Marcus\AppData\Local\Temp\ccHP6bow.s 			page 4
 
 
   83              	.L5:
@@ -194,51 +194,51 @@ ARM GAS  C:\Users\g\AppData\Local\Temp\cczGrZZM.s 			page 1
   93              		.type	QDEC_Cnt16_Sleep, %function
   94              	QDEC_Cnt16_Sleep:
   95              	.LFB2:
-  86:.\Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** 
-  87:.\Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** 
-  88:.\Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** /*******************************************************************************
-  89:.\Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** * Function Name: QDEC_Cnt16_Sleep
-  90:.\Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** ********************************************************************************
-  91:.\Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** * Summary:
-  92:.\Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** *     Stop and Save the user configuration
-  93:.\Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** *
-  94:.\Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** * Parameters:  
-  95:.\Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** *  void
-  96:.\Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** *
-  97:.\Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** * Return: 
-  98:.\Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** *  void
-  99:.\Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** *
- 100:.\Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** * Global variables:
- 101:.\Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** *  QDEC_Cnt16_backup.enableState:  Is modified depending on the enable 
- 102:.\Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** *  state of the block before entering sleep mode.
- 103:.\Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** *
- 104:.\Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** *******************************************************************************/
- 105:.\Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** void QDEC_Cnt16_Sleep(void) 
- 106:.\Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** {
+  86:Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** 
+  87:Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** 
+  88:Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** /*******************************************************************************
+  89:Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** * Function Name: QDEC_Cnt16_Sleep
+  90:Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** ********************************************************************************
+  91:Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** * Summary:
+  92:Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** *     Stop and Save the user configuration
+  93:Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** *
+  94:Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** * Parameters:  
+  95:Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** *  void
+  96:Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** *
+  97:Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** * Return: 
+  98:Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** *  void
+  99:Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** *
+ 100:Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** * Global variables:
+ 101:Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** *  QDEC_Cnt16_backup.enableState:  Is modified depending on the enable 
+ 102:Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** *  state of the block before entering sleep mode.
+ 103:Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** *
+ 104:Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** *******************************************************************************/
+ 105:Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** void QDEC_Cnt16_Sleep(void) 
+ 106:Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** {
   96              		.loc 1 106 0
   97              		.cfi_startproc
   98 0000 08B5     		push	{r3, lr}
   99              		.cfi_def_cfa_offset 8
  100              		.cfi_offset 3, -8
  101              		.cfi_offset 14, -4
- 107:.\Generated_Source\PSoC4/QDEC_Cnt16_PM.c ****     #if(!QDEC_Cnt16_ControlRegRemoved)
- 108:.\Generated_Source\PSoC4/QDEC_Cnt16_PM.c ****         /* Save Counter's enable state */
- 109:.\Generated_Source\PSoC4/QDEC_Cnt16_PM.c ****         if(QDEC_Cnt16_CTRL_ENABLE == (QDEC_Cnt16_CONTROL & QDEC_Cnt16_CTRL_ENABLE))
+ 107:Generated_Source\PSoC4/QDEC_Cnt16_PM.c ****     #if(!QDEC_Cnt16_ControlRegRemoved)
+ 108:Generated_Source\PSoC4/QDEC_Cnt16_PM.c ****         /* Save Counter's enable state */
+ 109:Generated_Source\PSoC4/QDEC_Cnt16_PM.c ****         if(QDEC_Cnt16_CTRL_ENABLE == (QDEC_Cnt16_CONTROL & QDEC_Cnt16_CTRL_ENABLE))
  102              		.loc 1 109 0
  103 0002 084B     		ldr	r3, .L12
  104 0004 1B78     		ldrb	r3, [r3]
  105 0006 5BB2     		sxtb	r3, r3
  106 0008 002B     		cmp	r3, #0
  107 000a 07DB     		blt	.L11
- 110:.\Generated_Source\PSoC4/QDEC_Cnt16_PM.c ****         {
- 111:.\Generated_Source\PSoC4/QDEC_Cnt16_PM.c ****             /* Counter is enabled */
- 112:.\Generated_Source\PSoC4/QDEC_Cnt16_PM.c ****             QDEC_Cnt16_backup.CounterEnableState = 1u;
- 113:.\Generated_Source\PSoC4/QDEC_Cnt16_PM.c ****         }
- 114:.\Generated_Source\PSoC4/QDEC_Cnt16_PM.c ****         else
- 115:.\Generated_Source\PSoC4/QDEC_Cnt16_PM.c ****         {
- 116:.\Generated_Source\PSoC4/QDEC_Cnt16_PM.c ****             /* Counter is disabled */
- 117:.\Generated_Source\PSoC4/QDEC_Cnt16_PM.c ****             QDEC_Cnt16_backup.CounterEnableState = 0u;
-ARM GAS  C:\Users\g\AppData\Local\Temp\cczGrZZM.s 			page 5
+ 110:Generated_Source\PSoC4/QDEC_Cnt16_PM.c ****         {
+ 111:Generated_Source\PSoC4/QDEC_Cnt16_PM.c ****             /* Counter is enabled */
+ 112:Generated_Source\PSoC4/QDEC_Cnt16_PM.c ****             QDEC_Cnt16_backup.CounterEnableState = 1u;
+ 113:Generated_Source\PSoC4/QDEC_Cnt16_PM.c ****         }
+ 114:Generated_Source\PSoC4/QDEC_Cnt16_PM.c ****         else
+ 115:Generated_Source\PSoC4/QDEC_Cnt16_PM.c ****         {
+ 116:Generated_Source\PSoC4/QDEC_Cnt16_PM.c ****             /* Counter is disabled */
+ 117:Generated_Source\PSoC4/QDEC_Cnt16_PM.c ****             QDEC_Cnt16_backup.CounterEnableState = 0u;
+ARM GAS  C:\Users\Marcus\AppData\Local\Temp\ccHP6bow.s 			page 5
 
 
  108              		.loc 1 117 0
@@ -246,31 +246,31 @@ ARM GAS  C:\Users\g\AppData\Local\Temp\cczGrZZM.s 			page 1
  110 000e 064B     		ldr	r3, .L12+4
  111 0010 1A70     		strb	r2, [r3]
  112              	.L9:
- 118:.\Generated_Source\PSoC4/QDEC_Cnt16_PM.c ****         }
- 119:.\Generated_Source\PSoC4/QDEC_Cnt16_PM.c ****     #else
- 120:.\Generated_Source\PSoC4/QDEC_Cnt16_PM.c ****         QDEC_Cnt16_backup.CounterEnableState = 1u;
- 121:.\Generated_Source\PSoC4/QDEC_Cnt16_PM.c ****         if(QDEC_Cnt16_backup.CounterEnableState != 0u)
- 122:.\Generated_Source\PSoC4/QDEC_Cnt16_PM.c ****         {
- 123:.\Generated_Source\PSoC4/QDEC_Cnt16_PM.c ****             QDEC_Cnt16_backup.CounterEnableState = 0u;
- 124:.\Generated_Source\PSoC4/QDEC_Cnt16_PM.c ****         }
- 125:.\Generated_Source\PSoC4/QDEC_Cnt16_PM.c ****     #endif /* (!QDEC_Cnt16_ControlRegRemoved) */
- 126:.\Generated_Source\PSoC4/QDEC_Cnt16_PM.c ****     
- 127:.\Generated_Source\PSoC4/QDEC_Cnt16_PM.c ****     QDEC_Cnt16_Stop();
+ 118:Generated_Source\PSoC4/QDEC_Cnt16_PM.c ****         }
+ 119:Generated_Source\PSoC4/QDEC_Cnt16_PM.c ****     #else
+ 120:Generated_Source\PSoC4/QDEC_Cnt16_PM.c ****         QDEC_Cnt16_backup.CounterEnableState = 1u;
+ 121:Generated_Source\PSoC4/QDEC_Cnt16_PM.c ****         if(QDEC_Cnt16_backup.CounterEnableState != 0u)
+ 122:Generated_Source\PSoC4/QDEC_Cnt16_PM.c ****         {
+ 123:Generated_Source\PSoC4/QDEC_Cnt16_PM.c ****             QDEC_Cnt16_backup.CounterEnableState = 0u;
+ 124:Generated_Source\PSoC4/QDEC_Cnt16_PM.c ****         }
+ 125:Generated_Source\PSoC4/QDEC_Cnt16_PM.c ****     #endif /* (!QDEC_Cnt16_ControlRegRemoved) */
+ 126:Generated_Source\PSoC4/QDEC_Cnt16_PM.c ****     
+ 127:Generated_Source\PSoC4/QDEC_Cnt16_PM.c ****     QDEC_Cnt16_Stop();
  113              		.loc 1 127 0
  114 0012 FFF7FEFF 		bl	QDEC_Cnt16_Stop
  115              	.LVL4:
- 128:.\Generated_Source\PSoC4/QDEC_Cnt16_PM.c ****     QDEC_Cnt16_SaveConfig();
- 129:.\Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** }
+ 128:Generated_Source\PSoC4/QDEC_Cnt16_PM.c ****     QDEC_Cnt16_SaveConfig();
+ 129:Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** }
  116              		.loc 1 129 0
  117              		@ sp needed
- 128:.\Generated_Source\PSoC4/QDEC_Cnt16_PM.c ****     QDEC_Cnt16_SaveConfig();
+ 128:Generated_Source\PSoC4/QDEC_Cnt16_PM.c ****     QDEC_Cnt16_SaveConfig();
  118              		.loc 1 128 0
  119 0016 FFF7FEFF 		bl	QDEC_Cnt16_SaveConfig
  120              	.LVL5:
  121              		.loc 1 129 0
  122 001a 08BD     		pop	{r3, pc}
  123              	.L11:
- 112:.\Generated_Source\PSoC4/QDEC_Cnt16_PM.c ****         }
+ 112:Generated_Source\PSoC4/QDEC_Cnt16_PM.c ****         }
  124              		.loc 1 112 0
  125 001c 0122     		mov	r2, #1
  126 001e 024B     		ldr	r3, .L12+4
@@ -292,61 +292,61 @@ ARM GAS  C:\Users\g\AppData\Local\Temp\cczGrZZM.s 			page 1
  142              		.type	QDEC_Cnt16_Wakeup, %function
  143              	QDEC_Cnt16_Wakeup:
  144              	.LFB3:
- 130:.\Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** 
- 131:.\Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** 
- 132:.\Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** /*******************************************************************************
- 133:.\Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** * Function Name: QDEC_Cnt16_Wakeup
- 134:.\Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** ********************************************************************************
- 135:.\Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** *
-ARM GAS  C:\Users\g\AppData\Local\Temp\cczGrZZM.s 			page 6
+ 130:Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** 
+ 131:Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** 
+ 132:Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** /*******************************************************************************
+ 133:Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** * Function Name: QDEC_Cnt16_Wakeup
+ 134:Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** ********************************************************************************
+ 135:Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** *
+ARM GAS  C:\Users\Marcus\AppData\Local\Temp\ccHP6bow.s 			page 6
 
 
- 136:.\Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** * Summary:
- 137:.\Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** *  Restores and enables the user configuration
- 138:.\Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** *  
- 139:.\Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** * Parameters:  
- 140:.\Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** *  void
- 141:.\Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** *
- 142:.\Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** * Return: 
- 143:.\Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** *  void
- 144:.\Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** *
- 145:.\Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** * Global variables:
- 146:.\Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** *  QDEC_Cnt16_backup.enableState:  Is used to restore the enable state of 
- 147:.\Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** *  block on wakeup from sleep mode.
- 148:.\Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** *
- 149:.\Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** *******************************************************************************/
- 150:.\Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** void QDEC_Cnt16_Wakeup(void) 
- 151:.\Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** {
+ 136:Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** * Summary:
+ 137:Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** *  Restores and enables the user configuration
+ 138:Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** *  
+ 139:Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** * Parameters:  
+ 140:Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** *  void
+ 141:Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** *
+ 142:Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** * Return: 
+ 143:Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** *  void
+ 144:Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** *
+ 145:Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** * Global variables:
+ 146:Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** *  QDEC_Cnt16_backup.enableState:  Is used to restore the enable state of 
+ 147:Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** *  block on wakeup from sleep mode.
+ 148:Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** *
+ 149:Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** *******************************************************************************/
+ 150:Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** void QDEC_Cnt16_Wakeup(void) 
+ 151:Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** {
  145              		.loc 1 151 0
  146              		.cfi_startproc
  147 0000 08B5     		push	{r3, lr}
  148              		.cfi_def_cfa_offset 8
  149              		.cfi_offset 3, -8
  150              		.cfi_offset 14, -4
- 152:.\Generated_Source\PSoC4/QDEC_Cnt16_PM.c ****     QDEC_Cnt16_RestoreConfig();
+ 152:Generated_Source\PSoC4/QDEC_Cnt16_PM.c ****     QDEC_Cnt16_RestoreConfig();
  151              		.loc 1 152 0
  152 0002 FFF7FEFF 		bl	QDEC_Cnt16_RestoreConfig
  153              	.LVL6:
- 153:.\Generated_Source\PSoC4/QDEC_Cnt16_PM.c ****     #if(!QDEC_Cnt16_ControlRegRemoved)
- 154:.\Generated_Source\PSoC4/QDEC_Cnt16_PM.c ****         if(QDEC_Cnt16_backup.CounterEnableState == 1u)
+ 153:Generated_Source\PSoC4/QDEC_Cnt16_PM.c ****     #if(!QDEC_Cnt16_ControlRegRemoved)
+ 154:Generated_Source\PSoC4/QDEC_Cnt16_PM.c ****         if(QDEC_Cnt16_backup.CounterEnableState == 1u)
  154              		.loc 1 154 0
  155 0006 044B     		ldr	r3, .L17
  156 0008 1B78     		ldrb	r3, [r3]
  157 000a 012B     		cmp	r3, #1
  158 000c 00D0     		beq	.L16
  159              	.L14:
- 155:.\Generated_Source\PSoC4/QDEC_Cnt16_PM.c ****         {
- 156:.\Generated_Source\PSoC4/QDEC_Cnt16_PM.c ****             /* Enable Counter's operation */
- 157:.\Generated_Source\PSoC4/QDEC_Cnt16_PM.c ****             QDEC_Cnt16_Enable();
- 158:.\Generated_Source\PSoC4/QDEC_Cnt16_PM.c ****         } /* Do nothing if Counter was disabled before */    
- 159:.\Generated_Source\PSoC4/QDEC_Cnt16_PM.c ****     #endif /* (!QDEC_Cnt16_ControlRegRemoved) */
- 160:.\Generated_Source\PSoC4/QDEC_Cnt16_PM.c ****     
- 161:.\Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** }
+ 155:Generated_Source\PSoC4/QDEC_Cnt16_PM.c ****         {
+ 156:Generated_Source\PSoC4/QDEC_Cnt16_PM.c ****             /* Enable Counter's operation */
+ 157:Generated_Source\PSoC4/QDEC_Cnt16_PM.c ****             QDEC_Cnt16_Enable();
+ 158:Generated_Source\PSoC4/QDEC_Cnt16_PM.c ****         } /* Do nothing if Counter was disabled before */    
+ 159:Generated_Source\PSoC4/QDEC_Cnt16_PM.c ****     #endif /* (!QDEC_Cnt16_ControlRegRemoved) */
+ 160:Generated_Source\PSoC4/QDEC_Cnt16_PM.c ****     
+ 161:Generated_Source\PSoC4/QDEC_Cnt16_PM.c **** }
  160              		.loc 1 161 0
  161              		@ sp needed
  162 000e 08BD     		pop	{r3, pc}
  163              	.L16:
- 157:.\Generated_Source\PSoC4/QDEC_Cnt16_PM.c ****         } /* Do nothing if Counter was disabled before */    
+ 157:Generated_Source\PSoC4/QDEC_Cnt16_PM.c ****         } /* Do nothing if Counter was disabled before */    
  164              		.loc 1 157 0
  165 0010 FFF7FEFF 		bl	QDEC_Cnt16_Enable
  166              	.LVL7:
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\g\AppData\Local\Temp\cczGrZZM.s 			page 1
  172              		.cfi_endproc
  173              	.LFE3:
  174              		.size	QDEC_Cnt16_Wakeup, .-QDEC_Cnt16_Wakeup
-ARM GAS  C:\Users\g\AppData\Local\Temp\cczGrZZM.s 			page 7
+ARM GAS  C:\Users\Marcus\AppData\Local\Temp\ccHP6bow.s 			page 7
 
 
  175              		.bss
@@ -371,8 +371,8 @@ ARM GAS  C:\Users\g\AppData\Local\Temp\cczGrZZM.s 			page 1
  181      0000
  182 0006 0000     		.text
  183              	.Letext0:
- 184              		.file 2 ".\\Generated_Source\\PSoC4\\cytypes.h"
- 185              		.file 3 ".\\Generated_Source\\PSoC4\\QDEC_Cnt16.h"
+ 184              		.file 2 "Generated_Source\\PSoC4\\cytypes.h"
+ 185              		.file 3 "Generated_Source\\PSoC4\\QDEC_Cnt16.h"
  186              		.section	.debug_info,"",%progbits
  187              	.Ldebug_info0:
  188 0000 DC010000 		.4byte	0x1dc
@@ -380,25 +380,25 @@ ARM GAS  C:\Users\g\AppData\Local\Temp\cczGrZZM.s 			page 1
  190 0006 00000000 		.4byte	.Ldebug_abbrev0
  191 000a 04       		.byte	0x4
  192 000b 01       		.uleb128 0x1
- 193 000c DE010000 		.4byte	.LASF30
+ 193 000c B5010000 		.4byte	.LASF30
  194 0010 01       		.byte	0x1
- 195 0011 C7000000 		.4byte	.LASF31
- 196 0015 75000000 		.4byte	.LASF32
+ 195 0011 F0000000 		.4byte	.LASF31
+ 196 0015 91020000 		.4byte	.LASF32
  197 0019 00000000 		.4byte	.Ldebug_ranges0+0
  198 001d 00000000 		.4byte	0
  199 0021 00000000 		.4byte	.Ldebug_line0
  200 0025 02       		.uleb128 0x2
  201 0026 01       		.byte	0x1
  202 0027 06       		.byte	0x6
- 203 0028 AE020000 		.4byte	.LASF0
+ 203 0028 85020000 		.4byte	.LASF0
  204 002c 02       		.uleb128 0x2
  205 002d 01       		.byte	0x1
  206 002e 08       		.byte	0x8
- 207 002f B4000000 		.4byte	.LASF1
+ 207 002f 8D000000 		.4byte	.LASF1
  208 0033 02       		.uleb128 0x2
  209 0034 02       		.byte	0x2
  210 0035 05       		.byte	0x5
- 211 0036 A4010000 		.4byte	.LASF2
+ 211 0036 7B010000 		.4byte	.LASF2
  212 003a 02       		.uleb128 0x2
  213 003b 02       		.byte	0x2
  214 003c 07       		.byte	0x7
@@ -406,22 +406,22 @@ ARM GAS  C:\Users\g\AppData\Local\Temp\cczGrZZM.s 			page 1
  216 0041 02       		.uleb128 0x2
  217 0042 04       		.byte	0x4
  218 0043 05       		.byte	0x5
- 219 0044 D5010000 		.4byte	.LASF4
+ 219 0044 AC010000 		.4byte	.LASF4
  220 0048 02       		.uleb128 0x2
  221 0049 04       		.byte	0x4
  222 004a 07       		.byte	0x7
- 223 004b 02010000 		.4byte	.LASF5
+ 223 004b B2000000 		.4byte	.LASF5
  224 004f 02       		.uleb128 0x2
  225 0050 08       		.byte	0x8
  226 0051 05       		.byte	0x5
- 227 0052 91010000 		.4byte	.LASF6
+ 227 0052 68010000 		.4byte	.LASF6
  228 0056 02       		.uleb128 0x2
  229 0057 08       		.byte	0x8
  230 0058 07       		.byte	0x7
-ARM GAS  C:\Users\g\AppData\Local\Temp\cczGrZZM.s 			page 8
+ARM GAS  C:\Users\Marcus\AppData\Local\Temp\ccHP6bow.s 			page 8
 
 
- 231 0059 5E010000 		.4byte	.LASF7
+ 231 0059 35010000 		.4byte	.LASF7
  232 005d 03       		.uleb128 0x3
  233 005e 04       		.byte	0x4
  234 005f 05       		.byte	0x5
@@ -429,31 +429,31 @@ ARM GAS  C:\Users\g\AppData\Local\Temp\cczGrZZM.s 			page 1
  236 0064 02       		.uleb128 0x2
  237 0065 04       		.byte	0x4
  238 0066 07       		.byte	0x7
- 239 0067 40010000 		.4byte	.LASF8
+ 239 0067 17010000 		.4byte	.LASF8
  240 006b 04       		.uleb128 0x4
- 241 006c 14010000 		.4byte	.LASF9
+ 241 006c C4000000 		.4byte	.LASF9
  242 0070 02       		.byte	0x2
  243 0071 9801     		.2byte	0x198
  244 0073 2C000000 		.4byte	0x2c
  245 0077 04       		.uleb128 0x4
- 246 0078 21010000 		.4byte	.LASF10
+ 246 0078 D1000000 		.4byte	.LASF10
  247 007c 02       		.byte	0x2
  248 007d 9901     		.2byte	0x199
  249 007f 3A000000 		.4byte	0x3a
  250 0083 02       		.uleb128 0x2
  251 0084 04       		.byte	0x4
  252 0085 04       		.byte	0x4
- 253 0086 AE000000 		.4byte	.LASF11
+ 253 0086 87000000 		.4byte	.LASF11
  254 008a 02       		.uleb128 0x2
  255 008b 08       		.byte	0x8
  256 008c 04       		.byte	0x4
- 257 008d 1A010000 		.4byte	.LASF12
+ 257 008d CA000000 		.4byte	.LASF12
  258 0091 02       		.uleb128 0x2
  259 0092 01       		.byte	0x1
  260 0093 08       		.byte	0x8
- 261 0094 9F010000 		.4byte	.LASF13
+ 261 0094 76010000 		.4byte	.LASF13
  262 0098 04       		.uleb128 0x4
- 263 0099 C2000000 		.4byte	.LASF14
+ 263 0099 9B000000 		.4byte	.LASF14
  264 009d 02       		.byte	0x2
  265 009e 4202     		.2byte	0x242
  266 00a0 A4000000 		.4byte	0xa4
@@ -462,14 +462,14 @@ ARM GAS  C:\Users\g\AppData\Local\Temp\cczGrZZM.s 			page 1
  269 00a9 02       		.uleb128 0x2
  270 00aa 04       		.byte	0x4
  271 00ab 07       		.byte	0x7
- 272 00ac 75010000 		.4byte	.LASF15
+ 272 00ac 4C010000 		.4byte	.LASF15
  273 00b0 06       		.uleb128 0x6
  274 00b1 06       		.byte	0x6
  275 00b2 03       		.byte	0x3
  276 00b3 40       		.byte	0x40
  277 00b4 DD000000 		.4byte	0xdd
  278 00b8 07       		.uleb128 0x7
- 279 00b9 7E010000 		.4byte	.LASF16
+ 279 00b9 55010000 		.4byte	.LASF16
  280 00bd 03       		.byte	0x3
  281 00be 42       		.byte	0x42
  282 00bf 6B000000 		.4byte	0x6b
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\g\AppData\Local\Temp\cczGrZZM.s 			page 1
  285 00c5 53000000 		.4byte	.LASF17
  286 00c9 03       		.byte	0x3
  287 00ca 43       		.byte	0x43
-ARM GAS  C:\Users\g\AppData\Local\Temp\cczGrZZM.s 			page 9
+ARM GAS  C:\Users\Marcus\AppData\Local\Temp\ccHP6bow.s 			page 9
 
 
  288 00cb 77000000 		.4byte	0x77
@@ -512,7 +512,7 @@ ARM GAS  C:\Users\g\AppData\Local\Temp\cczGrZZM.s 			page 1
  316 010b A4010000 		.4byte	0x1a4
  317 010f 00       		.byte	0
  318 0110 09       		.uleb128 0x9
- 319 0111 75020000 		.4byte	.LASF21
+ 319 0111 4C020000 		.4byte	.LASF21
  320 0115 01       		.byte	0x1
  321 0116 4A       		.byte	0x4a
  322 0117 00000000 		.4byte	.LFB1
@@ -528,7 +528,7 @@ ARM GAS  C:\Users\g\AppData\Local\Temp\cczGrZZM.s 			page 1
  332 0133 C0010000 		.4byte	0x1c0
  333 0137 00       		.byte	0
  334 0138 09       		.uleb128 0x9
- 335 0139 4D010000 		.4byte	.LASF22
+ 335 0139 24010000 		.4byte	.LASF22
  336 013d 01       		.byte	0x1
  337 013e 69       		.byte	0x69
  338 013f 00000000 		.4byte	.LFB2
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\g\AppData\Local\Temp\cczGrZZM.s 			page 1
  342 0149 60010000 		.4byte	0x160
  343 014d 0A       		.uleb128 0xa
  344 014e 16000000 		.4byte	.LVL4
-ARM GAS  C:\Users\g\AppData\Local\Temp\cczGrZZM.s 			page 10
+ARM GAS  C:\Users\Marcus\AppData\Local\Temp\ccHP6bow.s 			page 10
 
 
  345 0152 D1010000 		.4byte	0x1d1
@@ -547,7 +547,7 @@ ARM GAS  C:\Users\g\AppData\Local\Temp\cczGrZZM.s 			page 1
  348 015b E8000000 		.4byte	0xe8
  349 015f 00       		.byte	0
  350 0160 09       		.uleb128 0x9
- 351 0161 9C000000 		.4byte	.LASF23
+ 351 0161 75000000 		.4byte	.LASF23
  352 0165 01       		.byte	0x1
  353 0166 96       		.byte	0x96
  354 0167 00000000 		.4byte	.LFB3
@@ -571,17 +571,17 @@ ARM GAS  C:\Users\g\AppData\Local\Temp\cczGrZZM.s 			page 1
  372 0194 03       		.byte	0x3
  373 0195 00000000 		.4byte	QDEC_Cnt16_backup
  374 0199 0C       		.uleb128 0xc
- 375 019a AE010000 		.4byte	.LASF24
+ 375 019a 85010000 		.4byte	.LASF24
  376 019e 03       		.byte	0x3
  377 019f 5D       		.byte	0x5d
  378 01a0 77000000 		.4byte	0x77
  379 01a4 0C       		.uleb128 0xc
- 380 01a5 BA020000 		.4byte	.LASF25
+ 380 01a5 D3020000 		.4byte	.LASF25
  381 01a9 03       		.byte	0x3
  382 01aa 55       		.byte	0x55
  383 01ab 6B000000 		.4byte	0x6b
  384 01af 0D       		.uleb128 0xd
- 385 01b0 28010000 		.4byte	.LASF26
+ 385 01b0 D8000000 		.4byte	.LASF26
  386 01b4 03       		.byte	0x3
  387 01b5 5A       		.byte	0x5a
  388 01b6 C0010000 		.4byte	0x1c0
@@ -589,7 +589,7 @@ ARM GAS  C:\Users\g\AppData\Local\Temp\cczGrZZM.s 			page 1
  390 01bb 77000000 		.4byte	0x77
  391 01bf 00       		.byte	0
  392 01c0 0D       		.uleb128 0xd
- 393 01c1 8E020000 		.4byte	.LASF27
+ 393 01c1 65020000 		.4byte	.LASF27
  394 01c5 03       		.byte	0x3
  395 01c6 56       		.byte	0x56
  396 01c7 D1010000 		.4byte	0x1d1
@@ -597,14 +597,14 @@ ARM GAS  C:\Users\g\AppData\Local\Temp\cczGrZZM.s 			page 1
  398 01cc 6B000000 		.4byte	0x6b
  399 01d0 00       		.byte	0
  400 01d1 0F       		.uleb128 0xf
- 401 01d2 C5010000 		.4byte	.LASF28
-ARM GAS  C:\Users\g\AppData\Local\Temp\cczGrZZM.s 			page 11
+ 401 01d2 9C010000 		.4byte	.LASF28
+ARM GAS  C:\Users\Marcus\AppData\Local\Temp\ccHP6bow.s 			page 11
 
 
  402 01d6 03       		.byte	0x3
  403 01d7 50       		.byte	0x50
  404 01d8 0F       		.uleb128 0xf
- 405 01d9 F0000000 		.4byte	.LASF29
+ 405 01d9 A0000000 		.4byte	.LASF29
  406 01dd 03       		.byte	0x3
  407 01de 71       		.byte	0x71
  408 01df 00       		.byte	0
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\g\AppData\Local\Temp\cczGrZZM.s 			page 1
  456 002d 0E       		.uleb128 0xe
  457 002e 3A       		.uleb128 0x3a
  458 002f 0B       		.uleb128 0xb
-ARM GAS  C:\Users\g\AppData\Local\Temp\cczGrZZM.s 			page 12
+ARM GAS  C:\Users\Marcus\AppData\Local\Temp\ccHP6bow.s 			page 12
 
 
  459 0030 3B       		.uleb128 0x3b
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\g\AppData\Local\Temp\cczGrZZM.s 			page 1
  513 0066 09       		.uleb128 0x9
  514 0067 2E       		.uleb128 0x2e
  515 0068 01       		.byte	0x1
-ARM GAS  C:\Users\g\AppData\Local\Temp\cczGrZZM.s 			page 13
+ARM GAS  C:\Users\Marcus\AppData\Local\Temp\ccHP6bow.s 			page 13
 
 
  516 0069 3F       		.uleb128 0x3f
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\g\AppData\Local\Temp\cczGrZZM.s 			page 1
  570 00a2 0B       		.uleb128 0xb
  571 00a3 3B       		.uleb128 0x3b
  572 00a4 0B       		.uleb128 0xb
-ARM GAS  C:\Users\g\AppData\Local\Temp\cczGrZZM.s 			page 14
+ARM GAS  C:\Users\Marcus\AppData\Local\Temp\ccHP6bow.s 			page 14
 
 
  573 00a5 27       		.uleb128 0x27
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\g\AppData\Local\Temp\cczGrZZM.s 			page 1
  627 0004 0200     		.2byte	0x2
  628 0006 00000000 		.4byte	.Ldebug_info0
  629 000a 04       		.byte	0x4
-ARM GAS  C:\Users\g\AppData\Local\Temp\cczGrZZM.s 			page 15
+ARM GAS  C:\Users\Marcus\AppData\Local\Temp\ccHP6bow.s 			page 15
 
 
  630 000b 00       		.byte	0
@@ -868,8 +868,8 @@ ARM GAS  C:\Users\g\AppData\Local\Temp\cczGrZZM.s 			page 1
  654 0024 00000000 		.4byte	0
  655              		.section	.debug_line,"",%progbits
  656              	.Ldebug_line0:
- 657 0000 BE000000 		.section	.debug_str,"MS",%progbits,1
- 657      02005C00 
+ 657 0000 BC000000 		.section	.debug_str,"MS",%progbits,1
+ 657      02005A00 
  657      00000201 
  657      FB0E0D00 
  657      01010101 
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\g\AppData\Local\Temp\cczGrZZM.s 			page 1
  665      61636B75 
  665      70537472 
  666              	.LASF17:
-ARM GAS  C:\Users\g\AppData\Local\Temp\cczGrZZM.s 			page 16
+ARM GAS  C:\Users\Marcus\AppData\Local\Temp\ccHP6bow.s 			page 16
 
 
  667 0053 436F756E 		.ascii	"CounterUdb\000"
@@ -910,158 +910,163 @@ ARM GAS  C:\Users\g\AppData\Local\Temp\cczGrZZM.s 			page 1
  669      6F6E7472 
  669      6F6C5265 
  669      67697374 
- 670              	.LASF32:
- 671 0075 443A5C63 		.ascii	"D:\\code\\cypress\\controllers\\dcsd.cydsn\000"
- 671      6F64655C 
- 671      63797072 
- 671      6573735C 
- 671      636F6E74 
- 672              	.LASF23:
- 673 009c 51444543 		.ascii	"QDEC_Cnt16_Wakeup\000"
- 673      5F436E74 
- 673      31365F57 
- 673      616B6575 
- 673      7000
- 674              	.LASF11:
- 675 00ae 666C6F61 		.ascii	"float\000"
- 675      7400
- 676              	.LASF1:
- 677 00b4 756E7369 		.ascii	"unsigned char\000"
- 677      676E6564 
- 677      20636861 
- 677      7200
- 678              	.LASF14:
- 679 00c2 72656738 		.ascii	"reg8\000"
- 679      00
- 680              	.LASF31:
- 681 00c7 2E5C4765 		.ascii	".\\Generated_Source\\PSoC4\\QDEC_Cnt16_PM.c\000"
- 681      6E657261 
- 681      7465645F 
- 681      536F7572 
- 681      63655C50 
- 682              	.LASF29:
- 683 00f0 51444543 		.ascii	"QDEC_Cnt16_Enable\000"
- 683      5F436E74 
- 683      31365F45 
- 683      6E61626C 
- 683      6500
- 684              	.LASF5:
- 685 0102 6C6F6E67 		.ascii	"long unsigned int\000"
- 685      20756E73 
- 685      69676E65 
- 685      6420696E 
- 685      7400
- 686              	.LASF9:
- 687 0114 75696E74 		.ascii	"uint8\000"
- 687      3800
- 688              	.LASF12:
- 689 011a 646F7562 		.ascii	"double\000"
- 689      6C6500
- 690              	.LASF10:
-ARM GAS  C:\Users\g\AppData\Local\Temp\cczGrZZM.s 			page 17
+ 670              	.LASF23:
+ 671 0075 51444543 		.ascii	"QDEC_Cnt16_Wakeup\000"
+ 671      5F436E74 
+ 671      31365F57 
+ 671      616B6575 
+ 671      7000
+ 672              	.LASF11:
+ 673 0087 666C6F61 		.ascii	"float\000"
+ 673      7400
+ 674              	.LASF1:
+ 675 008d 756E7369 		.ascii	"unsigned char\000"
+ 675      676E6564 
+ 675      20636861 
+ 675      7200
+ 676              	.LASF14:
+ 677 009b 72656738 		.ascii	"reg8\000"
+ 677      00
+ 678              	.LASF29:
+ 679 00a0 51444543 		.ascii	"QDEC_Cnt16_Enable\000"
+ 679      5F436E74 
+ 679      31365F45 
+ 679      6E61626C 
+ 679      6500
+ 680              	.LASF5:
+ 681 00b2 6C6F6E67 		.ascii	"long unsigned int\000"
+ 681      20756E73 
+ 681      69676E65 
+ 681      6420696E 
+ 681      7400
+ 682              	.LASF9:
+ 683 00c4 75696E74 		.ascii	"uint8\000"
+ 683      3800
+ 684              	.LASF12:
+ 685 00ca 646F7562 		.ascii	"double\000"
+ 685      6C6500
+ 686              	.LASF10:
+ 687 00d1 75696E74 		.ascii	"uint16\000"
+ 687      313600
+ 688              	.LASF26:
+ 689 00d8 51444543 		.ascii	"QDEC_Cnt16_WriteCounter\000"
+ 689      5F436E74 
+ 689      31365F57 
+ 689      72697465 
+ 689      436F756E 
+ 690              	.LASF31:
+ 691 00f0 47656E65 		.ascii	"Generated_Source\\PSoC4\\QDEC_Cnt16_PM.c\000"
+ 691      72617465 
+ 691      645F536F 
+ARM GAS  C:\Users\Marcus\AppData\Local\Temp\ccHP6bow.s 			page 17
 
 
- 691 0121 75696E74 		.ascii	"uint16\000"
- 691      313600
- 692              	.LASF26:
- 693 0128 51444543 		.ascii	"QDEC_Cnt16_WriteCounter\000"
- 693      5F436E74 
- 693      31365F57 
- 693      72697465 
- 693      436F756E 
- 694              	.LASF8:
- 695 0140 756E7369 		.ascii	"unsigned int\000"
- 695      676E6564 
- 695      20696E74 
+ 691      75726365 
+ 691      5C50536F 
+ 692              	.LASF8:
+ 693 0117 756E7369 		.ascii	"unsigned int\000"
+ 693      676E6564 
+ 693      20696E74 
+ 693      00
+ 694              	.LASF22:
+ 695 0124 51444543 		.ascii	"QDEC_Cnt16_Sleep\000"
+ 695      5F436E74 
+ 695      31365F53 
+ 695      6C656570 
  695      00
- 696              	.LASF22:
- 697 014d 51444543 		.ascii	"QDEC_Cnt16_Sleep\000"
- 697      5F436E74 
- 697      31365F53 
- 697      6C656570 
- 697      00
- 698              	.LASF7:
- 699 015e 6C6F6E67 		.ascii	"long long unsigned int\000"
- 699      206C6F6E 
- 699      6720756E 
- 699      7369676E 
- 699      65642069 
- 700              	.LASF15:
- 701 0175 73697A65 		.ascii	"sizetype\000"
- 701      74797065 
- 701      00
- 702              	.LASF16:
- 703 017e 436F756E 		.ascii	"CounterEnableState\000"
- 703      74657245 
- 703      6E61626C 
- 703      65537461 
- 703      746500
- 704              	.LASF6:
- 705 0191 6C6F6E67 		.ascii	"long long int\000"
- 705      206C6F6E 
- 705      6720696E 
- 705      7400
- 706              	.LASF13:
- 707 019f 63686172 		.ascii	"char\000"
- 707      00
- 708              	.LASF2:
- 709 01a4 73686F72 		.ascii	"short int\000"
- 709      7420696E 
- 709      7400
- 710              	.LASF24:
- 711 01ae 51444543 		.ascii	"QDEC_Cnt16_ReadCounter\000"
+ 696              	.LASF7:
+ 697 0135 6C6F6E67 		.ascii	"long long unsigned int\000"
+ 697      206C6F6E 
+ 697      6720756E 
+ 697      7369676E 
+ 697      65642069 
+ 698              	.LASF15:
+ 699 014c 73697A65 		.ascii	"sizetype\000"
+ 699      74797065 
+ 699      00
+ 700              	.LASF16:
+ 701 0155 436F756E 		.ascii	"CounterEnableState\000"
+ 701      74657245 
+ 701      6E61626C 
+ 701      65537461 
+ 701      746500
+ 702              	.LASF6:
+ 703 0168 6C6F6E67 		.ascii	"long long int\000"
+ 703      206C6F6E 
+ 703      6720696E 
+ 703      7400
+ 704              	.LASF13:
+ 705 0176 63686172 		.ascii	"char\000"
+ 705      00
+ 706              	.LASF2:
+ 707 017b 73686F72 		.ascii	"short int\000"
+ 707      7420696E 
+ 707      7400
+ 708              	.LASF24:
+ 709 0185 51444543 		.ascii	"QDEC_Cnt16_ReadCounter\000"
+ 709      5F436E74 
+ 709      31365F52 
+ 709      65616443 
+ 709      6F756E74 
+ 710              	.LASF28:
+ 711 019c 51444543 		.ascii	"QDEC_Cnt16_Stop\000"
  711      5F436E74 
- 711      31365F52 
- 711      65616443 
- 711      6F756E74 
- 712              	.LASF28:
- 713 01c5 51444543 		.ascii	"QDEC_Cnt16_Stop\000"
- 713      5F436E74 
- 713      31365F53 
-ARM GAS  C:\Users\g\AppData\Local\Temp\cczGrZZM.s 			page 18
+ 711      31365F53 
+ 711      746F7000 
+ 712              	.LASF4:
+ 713 01ac 6C6F6E67 		.ascii	"long int\000"
+ 713      20696E74 
+ 713      00
+ 714              	.LASF30:
+ARM GAS  C:\Users\Marcus\AppData\Local\Temp\ccHP6bow.s 			page 18
 
 
- 713      746F7000 
- 714              	.LASF4:
- 715 01d5 6C6F6E67 		.ascii	"long int\000"
- 715      20696E74 
- 715      00
- 716              	.LASF30:
- 717 01de 474E5520 		.ascii	"GNU C 4.9.3 20150303 (release) [ARM/embedded-4_9-br"
- 717      4320342E 
- 717      392E3320 
- 717      32303135 
- 717      30333033 
- 718 0211 616E6368 		.ascii	"anch revision 221220] -mcpu=cortex-m0 -mthumb -g -O"
- 718      20726576 
- 718      6973696F 
- 718      6E203232 
- 718      31323230 
- 719 0244 32202D73 		.ascii	"2 -std=c99 -ffunction-sections -ffat-lto-objects\000"
- 719      74643D63 
- 719      3939202D 
- 719      6666756E 
- 719      6374696F 
- 720              	.LASF21:
- 721 0275 51444543 		.ascii	"QDEC_Cnt16_RestoreConfig\000"
+ 715 01b5 474E5520 		.ascii	"GNU C 4.9.3 20150303 (release) [ARM/embedded-4_9-br"
+ 715      4320342E 
+ 715      392E3320 
+ 715      32303135 
+ 715      30333033 
+ 716 01e8 616E6368 		.ascii	"anch revision 221220] -mcpu=cortex-m0 -mthumb -g -O"
+ 716      20726576 
+ 716      6973696F 
+ 716      6E203232 
+ 716      31323230 
+ 717 021b 32202D73 		.ascii	"2 -std=c99 -ffunction-sections -ffat-lto-objects\000"
+ 717      74643D63 
+ 717      3939202D 
+ 717      6666756E 
+ 717      6374696F 
+ 718              	.LASF21:
+ 719 024c 51444543 		.ascii	"QDEC_Cnt16_RestoreConfig\000"
+ 719      5F436E74 
+ 719      31365F52 
+ 719      6573746F 
+ 719      7265436F 
+ 720              	.LASF27:
+ 721 0265 51444543 		.ascii	"QDEC_Cnt16_WriteControlRegister\000"
  721      5F436E74 
- 721      31365F52 
- 721      6573746F 
- 721      7265436F 
- 722              	.LASF27:
- 723 028e 51444543 		.ascii	"QDEC_Cnt16_WriteControlRegister\000"
- 723      5F436E74 
- 723      31365F57 
- 723      72697465 
- 723      436F6E74 
- 724              	.LASF0:
- 725 02ae 7369676E 		.ascii	"signed char\000"
- 725      65642063 
- 725      68617200 
- 726              	.LASF25:
- 727 02ba 51444543 		.ascii	"QDEC_Cnt16_ReadControlRegister\000"
- 727      5F436E74 
- 727      31365F52 
- 727      65616443 
- 727      6F6E7472 
- 728              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 4.9.3 20150303 (release) [ARM/embedded-4_9-br
+ 721      31365F57 
+ 721      72697465 
+ 721      436F6E74 
+ 722              	.LASF0:
+ 723 0285 7369676E 		.ascii	"signed char\000"
+ 723      65642063 
+ 723      68617200 
+ 724              	.LASF32:
+ 725 0291 433A5C55 		.ascii	"C:\\Users\\Marcus\\Documents\\GitHub\\Tarocco Lite\\"
+ 725      73657273 
+ 725      5C4D6172 
+ 725      6375735C 
+ 725      446F6375 
+ 726 02bf 4669726D 		.ascii	"Firmware\\dcsd.cydsn\000"
+ 726      77617265 
+ 726      5C646373 
+ 726      642E6379 
+ 726      64736E00 
+ 727              	.LASF25:
+ 728 02d3 51444543 		.ascii	"QDEC_Cnt16_ReadControlRegister\000"
+ 728      5F436E74 
+ 728      31365F52 
+ 728      65616443 
+ 728      6F6E7472 
+ 729              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 4.9.3 20150303 (release) [ARM/embedded-4_9-br

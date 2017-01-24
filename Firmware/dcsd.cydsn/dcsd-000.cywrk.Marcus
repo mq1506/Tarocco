@@ -11,14 +11,14 @@
 </CyGuid_5f2be1a5-0687-4501-bb8c-cf21cb8211bf>
 </dataGuid>
 <dataGuid v="1b906a0f-a7b6-4e4d-a428-82f98b53cb35">
-<CyGuid_1b906a0f-a7b6-4e4d-a428-82f98b53cb35 type_name="CyDesigner.Common.ProjMgmt.GUI.CyExplorerWindow+CyExplorerWindowState" version="3" SelectedTab="Source">
+<CyGuid_1b906a0f-a7b6-4e4d-a428-82f98b53cb35 type_name="CyDesigner.Common.ProjMgmt.GUI.CyExplorerWindow+CyExplorerWindowState" version="3" SelectedTab="Datasheet">
 <TreeKeys>
 <v>Source</v>
 <v>Components</v>
 <v>Output</v>
 </TreeKeys>
 <TreeStates>
-<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="dcsd-000\dcsd\Generated_Source">
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="dcsd-000\dcsd">
 <ExpandedNodeIds>
 <v>dcsd-000</v>
 <v>dcsd-000\dcsd</v>
@@ -415,6 +415,7 @@
 <v>dcsd-000\dcsd\System Reference Guides</v>
 <v>dcsd-000\dcsd\System Reference Guides\cy_boot_v5_40</v>
 <v>dcsd-000\dcsd\System Reference Guides\cy_lfclk_v1_10</v>
+<v>dcsd-000\dcsd\Project Datasheet</v>
 <v>dcsd-000\dcsd\ADC_SAR_SEQ_P4_v2_40.pdf</v>
 <v>dcsd-000\dcsd\Bootloadable_v1_50.pdf</v>
 <v>dcsd-000\dcsd\cy_clock_v2_20</v>
@@ -440,6 +441,7 @@
 <v>dcsd-000\dcsd\System Reference Guides</v>
 <v>dcsd-000\dcsd\System Reference Guides\cy_boot_v5_40</v>
 <v>dcsd-000\dcsd\System Reference Guides\cy_lfclk_v1_10</v>
+<v>dcsd-000\dcsd\Project Datasheet</v>
 <v>dcsd-000\dcsd\ADC_SAR_SEQ_P4_v2_40.pdf</v>
 <v>dcsd-000\dcsd\Bootloadable_v1_50.pdf</v>
 <v>dcsd-000\dcsd\cy_clock_v2_20</v>
@@ -464,7 +466,18 @@
 </userData>
 </CyGuid_fdba8dfd-b15b-4469-9bbb-9e40c3e70997>
 <Unloaded />
-<OpenDocs />
+<OpenDocs>
+<name v=".\TopDesign\TopDesign.cysch" />
+<name v=".\main.c" />
+<name v=".\dcsd.cydwr" />
+</OpenDocs>
+<OpenDocsLayout><![CDATA[<?xml version="1.0"?><!--
+
+  Actipro Docking/MDI for WinForms
+  Copyright (c) 2001-2016 Actipro Software LLC.  All rights reserved.
+  http://www.actiprosoftware.com
+
+--><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="1339, 915" SelectedTabbedMdiWindow="570babba-bfea-4051-8e0b-a049437f3b6f"><ToolWindow Key="Start Page:bd4649ab-da6b-4d04-a663-c722b8bf99db:Start Page" Guid="5511f60f-c512-493a-ad3f-75561532619e" /><DocumentWindow Key="ff61d5fd-5b07-4481-931b-e9deffad1371" Guid="570babba-bfea-4051-8e0b-a049437f3b6f" /><DocumentWindow Key="285677dc-1bff-4725-9365-2426e7e85c25" Guid="9f123ce8-db19-47e5-bdb2-405d781f7f2e" /><DocumentWindow Key="2a7b8df8-f9e8-447f-86fe-670f5e1134ec" Guid="66614279-5001-46fe-a45f-a94969af0cf5" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
 <config v="" />
 <AutoUpdate v="true" />
 </CyGuid_843a90a4-0c4b-4e44-991d-05e7fb117a21>
